@@ -17,7 +17,7 @@ My research is centered around the detection, diagnosis, and mitigation of syste
 
 I am currently focused on mitigating intra-application performance interference, employing a range of strategies from developing new scheduling mechanisms to utilizing large language models for assisting in performance issue diagnosis.
 
-**Update: <span style="color:#8B0000;">I am actively seeking faculty positions. If you are interested in my research or have an open position that aligns with my expertise, I would be delighted to connect and discuss potential opportunities.</span>**
+**Update: <span style="color:#8B0000;">I will be an Assistant Professor at ECE@Boston University, starting in Fall 2025.  Our lab has multiple Ph.D. student positions. If you are interested in building/hacking systems, we should talk.</span>**
 
 ### News 
 
@@ -79,8 +79,8 @@ I am currently focused on mitigating intra-application performance interference,
 
 ## Bio
 
-I received my Ph.D. from Johns Hopkins University in June 2023, advised by Prof. Ryan (Peng) Huang. I obtained my B.E. degree in Computer Science from Huazhong University of Science & Technology in 2017. When I was in HUST, I was fortunately worked with Prof. Hai Jin and Prof. Deqing Zou in the Cluster and Grid Computing Lab and [Prof. Shan Lu](https://people.cs.uchicago.edu/~shanlu/) at University of Chicago.
+I received my Ph.D. from Johns Hopkins University in June 2023, advised by Prof. Ryan (Peng) Huang(https://web.eecs.umich.edu/~ryanph/). I obtained my B.E. degree in Computer Science from Huazhong University of Science & Technology in 2017. When I was in HUST, I was fortunately worked with Prof. Hai Jin and Prof. Deqing Zou in the Cluster and Grid Computing Lab and [Prof. Shan Lu](https://people.cs.uchicago.edu/~shanlu/) at University of Chicago.
 
 - My favorite proverb is "The scholar may not be without breadth of mind and vigorous endurance." from The Analects of Confucius. 
-- If I don't do research, I would spend my time in reading history book, caring for my goldfish, playing Go and most importantly, spend time with my wife and kid.
+- If I don't do research, I would spend my time in reading history book, caring for my goldfish, playing Go and most importantly, spend time with my wife(https://gigi520.love/) and kid.
 
