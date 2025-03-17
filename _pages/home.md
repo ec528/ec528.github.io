@@ -17,7 +17,7 @@ My research is centered around the detection, diagnosis, and mitigation of syste
 
 I am currently focused on mitigating intra-application performance interference, employing a range of strategies from developing new scheduling mechanisms to utilizing large language models for assisting in performance issue diagnosis.
 
-**Update: <span style="color:#8B0000;">I will be an Assistant Professor at ECE@Boston University, starting in Fall 2025.  Our lab has multiple Ph.D. student positions. If you are interested in building/hacking systems, we should talk.</span>**
+<!-- **Update: <span style="color:#8B0000;">I will be an Assistant Professor at ECE@Boston University, starting in Fall 2025.  Our lab has multiple Ph.D. student positions. If you are interested in building/hacking systems, we should talk.</span>** -->
 
 ### News 
 
@@ -58,7 +58,6 @@ I am currently focused on mitigating intra-application performance interference,
 **ASPLOS 2019**  \[ [talk](https://www.youtube.com/watch?v=eA7RMhmj7S8)  [slides](../paper/leaseos_asplos19_slides.pdf) [software](https://orderlab.io/LeaseOS/)\] 
 
 
-
 ## Teaching
 
 [Spring 2022] Guest lecture on early detection of configuration errors for the graduate course, [CS 624: Reliable Software Systems](https://www.cs.jhu.edu/~huang/cs624/spring22/) ,Johns Hopkins University
@@ -72,15 +71,18 @@ I am currently focused on mitigating intra-application performance interference,
 [Fall 2019] Teaching Assistant for the undergraduate course, [CS 318/418/618: Principles of Operating Systems](https://web.eecs.umich.edu/~ryanph/jhu/cs318/fall19/index.html)
 
 ## Service
+ Program Committee
+- 2026: ASPLOS 
 
+Misc.
 - Artifact Evaluation Committee Member for EuroSys’23 
-- Student Volunteer for EuroSys’23 
-- External Review Committee Member for NSDI’21, OSDI’20, SOSP’19, HotOS’19, SOSP’17
+<!-- - Student Volunteer for EuroSys’23  -->
+- External Reviewer for NSDI’21, OSDI’20, SOSP’19, HotOS’19, SOSP’17
 
 ## Bio
 
-I received my Ph.D. from Johns Hopkins University in June 2023, advised by [Prof. Ryan (Peng) Huang](https://web.eecs.umich.edu/~ryanph/). I obtained my B.E. degree in Computer Science from Huazhong University of Science & Technology in 2017. When I was in HUST, I was fortunately worked with Prof. Hai Jin and Prof. Deqing Zou in the Cluster and Grid Computing Lab and [Prof. Shan Lu](https://people.cs.uchicago.edu/~shanlu/) at University of Chicago.
+I received my Ph.D. from Johns Hopkins University in June 2023, advised by Prof. Ryan (Peng) Huang I obtained my B.E. degree in Computer Science from Huazhong University of Science & Technology in 2017. When I was in HUST, I was fortunately worked with Prof. Hai Jin and Prof. Deqing Zou in the Cluster and Grid Computing Lab and [Prof. Shan Lu](https://people.cs.uchicago.edu/~shanlu/) at University of Chicago.
 
 - My favorite proverb is "The scholar may not be without breadth of mind and vigorous endurance." from The Analects of Confucius. 
-- If I don't do research, I would spend my time in reading history book, caring for my goldfish, playing Go and most importantly, spend time with [my wife](https://gigi520.love/) and kid.
+- If I don't do research, I would spend my time in reading history book, caring for my goldfish, playing Go and most importantly, spend time with my wife and kid.
 
