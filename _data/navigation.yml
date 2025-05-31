@@ -1,11 +1,24 @@
 main:
+  # ---------- global links ----------
   - title: "News"
-    url: /#news
+    url: "/#news"
   - title: "Publications"
-    url: /#publications
+    url: "/#publications"
   - title: "Teaching"
-    url: /#teaching
+    url: "/#teaching"
   - title: "Service"
-    url: /#service
+    url: "/#service"
   - title: "Bio"
-    url: /#bio
+    url: "/#bio"
+
+  # ---------- EC440 page links ----------
+  - title: "Syllabus"
+    url: "/EC440/fall25/"
+  - title: "Lecture"
+    url: "/EC440/fall25/lectures"
+  - title: "Homework"
+    url: "/EC440/fall25/homework"
+  - title: "Project"
+    url: "/EC440/fall25/projects"
+  - title: "Piazza"
+    url: "https://piazza.com/"

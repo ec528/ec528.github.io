@@ -25,7 +25,7 @@ I am currently focused on mitigating intra-application performance interference,
 - [07/2023] pBox, our work on pushing performance isolation boundaries into application, is accepted to appear at [SOSP 2023](https://sosp2023.mpi-sws.org/index.html).
 - [06/2023] I passed my Ph.D. defense and will join University of Washington as a postdoc. 
 - [01/2023] vProf(value-assited cost profiling) is accepted to appear at [EuroSys 2023](https://2023.eurosys.org/)
-- [12/2020] Gongqi Huang,  an undergraduate student mentored by me, received the honorable mention CRA Outstanding Undergraduate Researcher Award!
+- [12/2020] Gongqi Huang, an undergraduate student mentored by me, received the honorable mention CRA Outstanding Undergraduate Researcher Award!
 - [08/2020] Our Violet (detecting specious configuration with symbolic execution) is accepted to appear at [OSDI 2020](https://www.usenix.org/conference/osdi20).
 - [04/2019] LeaseOS won the best paper award at ASPLOS'19!
 - [11/2018] Our paper LeaseOS, a lease-based resource management mechanism, is accepted to appear at [ASPLOS 2019](https://asplos-conference.org/).
@@ -60,24 +60,21 @@ I am currently focused on mitigating intra-application performance interference,
 
 ## Teaching
 
-[Spring 2022] Guest lecture on early detection of configuration errors for the graduate course, [CS 624: Reliable Software Systems](https://www.cs.jhu.edu/~huang/cs624/spring22/) ,Johns Hopkins University
+- **EC 440: Introduction to Operating Systems**
+  <!-- - [Fall 2025](/EC440/fall25) -->
 
-[Spring 2021] Guest lecture on detecting misconfiguration with symbolic configuration for the graduate course, [CS 624: Reliable Software Systems](https://www.cs.jhu.edu/~huang/cs624/spring21/) ,Johns Hopkins University
-
-[Spring 2021]  Teaching Assistant for the graduate course, [CS 624: Reliable Software Systems](https://www.cs.jhu.edu/~huang/cs624/spring21/) ,Johns Hopkins University
-
-[Fall 2019] Invited guest lecture on energy aware android programming for the undergraduate course, [EN.601.290: User Interfaces and Mobile Applications](https://www.cs.jhu.edu/~joanne/cs290/syllabus.html)
-
-[Fall 2019] Teaching Assistant for the undergraduate course, [CS 318/418/618: Principles of Operating Systems](https://web.eecs.umich.edu/~ryanph/jhu/cs318/fall19/index.html)
+- **TA**
+  - CS 624: Reliable Software Systems: [Spring 2021](https://www.cs.jhu.edu/~huang/cs624/spring21/)
+  - CS 318/418/618: Principles of Operating Systems: [Fall 2019](https://web.eecs.umich.edu/~ryanph/jhu/cs318/fall19/index.html)
 
 ## Service
- Program Committee
-- 2026: ASPLOS 
+- **Program Committee**
+  - 2026: ASPLOS 
 
-Misc.
-- Artifact Evaluation Committee Member for EuroSys’23 
+- **Misc.**
+  - Artifact Evaluation Committee Member for EuroSys’23 
 <!-- - Student Volunteer for EuroSys’23  -->
-- External Reviewer for NSDI’21, OSDI’20, SOSP’19, HotOS’19, SOSP’17
+  - External Reviewer for NSDI’21, OSDI’20, SOSP’19, HotOS’19, SOSP’17
 
 ## Bio
 

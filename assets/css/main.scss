@@ -14,9 +14,11 @@ search: false
   p,
   li,
   dl {
-    font-size: 0.85em;
+    font-size: 0.9em;
   }
 }
+
+
 
 @media (min-width: 80em) {
 
@@ -45,7 +47,7 @@ search: false
 }
 
 #main {
-  max-width: 1400px; /* Adjust to your desired content width */
+  max-width: 1500px; /* Adjust to your desired content width */
   margin-left: auto;
   margin-right: auto;
 }
@@ -64,3 +66,39 @@ search: false
   margin: 0 auto;
   // max-width: 90%;
 }
+
+.left-img {  max-width: 20% !important; display: block; margin: 1 auto; }
+
+/* ---------- page-specific nav for EC440 ---------- */
+
+/* ---------- hide EC440 menu items by default ---------- */
+.masthead a[href*="/EC440/"],
+.masthead a[href*="piazza.com"] {
+  display: none !important;
+}
+
+/* --- EC440 page: replace the default site title text ------------------- */
+.ec440-page .site-title {
+  font-size: 0;            /* hide “Yigong Hu” */
+}
+
+.ec440-page .site-title::after {
+  content: "EC440: Introduction to Operating Systems";
+  font-size: 1rem;         /* tweak size */
+  font-weight: 700;
+  color: #000;             /* black */
+}
+
+/* ---------- EC440 navigation swap ------------------------------------ */
+
+/* 1  Hide course links everywhere */
+.masthead a[href*="/EC440/"],
+.masthead a[href*="piazza.com"] { display:none !important; }
+
+/* 2  Hide every masthead item on the EC440 page … */
+.ec440-page .masthead a          { display:none !important; }
+
+/* 3  … then re-show: the site title + the five course links */
+.ec440-page .masthead  a.site-title,          /* <-- keep the title link  */
+.ec440-page .masthead  a[href*="/EC440/"],
+.ec440-page .masthead  a[href*="piazza.com"]  { display:inline-block !important; }
