@@ -10,6 +10,7 @@ search: false
 @import "minimal-mistakes";
 
 
+
 .page__content {
   p,
   li,
@@ -18,7 +19,9 @@ search: false
   }
 }
 
-
+// .site-title {
+//   color: #000 !important;   /* override the theme’s gray */
+// }
 
 @media (min-width: 80em) {
 
@@ -45,6 +48,44 @@ search: false
     }
   }
 }
+
+.author__name {
+  font-size: 3em;        /* tweak to taste */
+  font-weight: 700;
+  color: #000 !important;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 1.1;
+  pointer-events: none; 
+  cursor: default; 
+}
+
+
+.author__avatar a     { pointer-events: none; cursor: none; }
+
+/* 2 ▸ centre the role line (“Assistant Professor”) */
+.author__bio {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1;
+  // font-size: 0.9em;
+}
+
+/* 3 ▸ keep the icon list left-aligned but give it a little indent */
+.author__links {            /* UL element */
+  padding-left: 0;          /* remove default bullet indent */
+  list-style: none;         /* hide bullets */
+  text-align: left;         /* left-align the list */
+}
+
+.author__links li {         /* each LI */
+  margin: 0.5rem 0;
+  display: block;            /* icon + text in one line */            
+}
+
+/* optional: keep sidebar max-width reasonable on very wide screens */
+.sidebar { max-width: 220px; }
 
 #main {
   max-width: 1500px; /* Adjust to your desired content width */

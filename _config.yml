@@ -61,9 +61,12 @@ plugins:
 author:
   name   : "Yigong Hu"
   avatar : "/images/photo.jpg"
-  bio    : "Postdoc, University of Washington "
+  bio    : "Assistant Professor"
   links:
-    - label: "Google Scholar"
+    - label: "University of Boston"
+      icon: "fas fa-fw fa-university"
+      url: "#"
+    - label: "Google Scholar" 
       icon: "fas fa-fw fa-graduation-cap "
       url: "https://scholar.google.com/citations?user=9GCyTRoAAAAJ&hl=en"
     - label: "GitHub"

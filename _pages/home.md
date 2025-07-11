@@ -8,14 +8,17 @@ permalink: /
 
 ### About Me
 
-I am a postdoctoral researcher working with [Prof. Baris Kasikci](https://homes.cs.washington.edu/~baris/) in the UW Systems Lab at the University of Washington. I earned my computer science Ph.D. from Johns Hopkins University in May 2023 where I worked with [Prof. Ryan Huang](https://web.eecs.umich.edu/~ryanph/). 
+I am a tenure-track assistant professor in the Department of Electrical and Computer Engineering at Boston University. My research interests focus on building **reliable** and **fast** systems. I am particularly interested in developing principled techniques to enhance system performance, spanning from machine learning systems to cloud computing platforms.
 
-My research is centered around the detection, diagnosis, and mitigation of systems performance issues. In my Ph.D. work, I developed principled approaches to improve the systems performance. Specifically, I contributed to the following areas:
+I’m currently looking for self-motivated students (undergraduate, master’s, and PhD) and interns who are passionate about building systems. If you’re interested, please explore our graduate programs at BU ECE and feel free to email me with your CV!
+
+
+<!-- In my Ph.D. work, I developed principled approaches to improve the systems performance. Specifically, I contributed to the following areas:
 - Intra-application performance interference: \[[pBox SOSP'23](https://dl.acm.org/doi/10.1145/3600006.3613159)\],\[[vprof Eurosys'23](https://dl.acm.org/doi/abs/10.1145/3552326.3587444)\]
 - Specious configuration: \[[Violet OSDI'20](https://www.usenix.org/conference/osdi20/presentation/hu)\]
-- Application misbehavior: \[[LeaseOS ASPLOS'19](https://dl.acm.org/doi/abs/10.1145/3297858.3304057)\](**Best paper award**)
+- Application misbehavior: \[[LeaseOS ASPLOS'19](https://dl.acm.org/doi/abs/10.1145/3297858.3304057)\](**Best paper award**) -->
 
-I am currently focused on mitigating intra-application performance interference, employing a range of strategies from developing new scheduling mechanisms to utilizing large language models for assisting in performance issue diagnosis.
+<!-- I am currently focused on mitigating intra-application performance interference, employing a range of strategies from developing new scheduling mechanisms to utilizing large language models for assisting in performance issue diagnosis. -->
 
 <!-- **Update: <span style="color:#8B0000;">I will be an Assistant Professor at ECE@Boston University, starting in Fall 2025.  Our lab has multiple Ph.D. student positions. If you are interested in building/hacking systems, we should talk.</span>** -->
 
@@ -36,6 +39,10 @@ I am currently focused on mitigating intra-application performance interference,
 - [05/2019]  Started internship at Microsoft. -->
 
 ### Publications
+
+[Mitigating Application Resource Overload with Targeted Task Cancellation]() \\
+**Yigong Hu**, Zeyin Zhang, Yicheng Liu, Yile Gu, Shuangyu Lei, Baris Kasikci, Peng Huang \\
+ **SOSP 2025**
 
 [Pushing Performance Isolation Boundaries into Application with pBox](../paper/pbox_sosp23.pdf) \\
   **Yigong Hu**, Gongqi Huang, Peng Huang \\
@@ -61,7 +68,7 @@ I am currently focused on mitigating intra-application performance interference,
 ## Teaching
 
 - **EC 440: Introduction to Operating Systems**
-  <!-- - [Fall 2025](/EC440/fall25) -->
+  - [Fall 2025](/EC440/fall25)
 
 - **TA**
   - CS 624: Reliable Software Systems: [Spring 2021](https://www.cs.jhu.edu/~huang/cs624/spring21/)
@@ -78,8 +85,7 @@ I am currently focused on mitigating intra-application performance interference,
 
 ## Bio
 
-I received my Ph.D. from Johns Hopkins University in June 2023, advised by Prof. Ryan (Peng) Huang I obtained my B.E. degree in Computer Science from Huazhong University of Science & Technology in 2017. When I was in HUST, I was fortunately worked with Prof. Hai Jin and Prof. Deqing Zou in the Cluster and Grid Computing Lab and [Prof. Shan Lu](https://people.cs.uchicago.edu/~shanlu/) at University of Chicago.
+I received my Ph.D. from Johns Hopkins University, advised by Prof. Ryan (Peng) Huang. Following that, I worked with Prof. Baris Kasikci at the University of Washington for two wonderful years. I obtained my B.E. degree in Computer Science from Huazhong University of Science & Technology (HUST). While at HUST, I was fortunate to work with Prof. Hai Jin and Prof. Deqing Zou in the Cluster and Grid Computing Lab, as well as with Prof. Shan Lu at the University of Chicago.
 
 - My favorite proverb is "The scholar may not be without breadth of mind and vigorous endurance." from The Analects of Confucius. 
-- If I don't do research, I would spend my time in reading history book, caring for my goldfish, playing Go and most importantly, spend time with my wife and kid.
-
+- If I don't do research, I would spend my time in reading history book, caring for my goldfish, playing games and most importantly, spend time with my wife and kid.
