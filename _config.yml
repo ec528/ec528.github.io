@@ -63,7 +63,7 @@ author:
   avatar : "/images/photo.jpg"
   bio    : "Assistant Professor"
   links:
-    - label: "University of Boston"
+    - label: "Boston University "
       icon: "fas fa-fw fa-university"
       url: "#"
     - label: "Google Scholar" 
