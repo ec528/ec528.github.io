@@ -62,7 +62,7 @@ I’m currently looking for self-motivated students (undergraduate, master’s, 
     **Yigong Hu**, Ze Li, Peng Huang, Suhas Pinnamaneni, Francis David, Yingnong Dang \\
     **AAAI workshop on cloud intelligence 2020**
 
-[A Case for Lease-Based, Utilitarian Resource Management on Mobile Devices](../paper/leaseos-asplos19.pdf) [Best Paper Award] \\
+[A Case for Lease-Based, Utilitarian Resource Management on Mobile Devices](../paper/leaseos-asplos19.pdf) [**Best Paper Award**] \\
 **Yigong Hu**, Suyi Liu, Peng Huang \\
 **ASPLOS 2019**  \[ [talk](https://www.youtube.com/watch?v=eA7RMhmj7S8)  [slides](../paper/leaseos_asplos19_slides.pdf) [software](https://orderlab.io/LeaseOS/)\] 
 
@@ -87,7 +87,7 @@ I’m currently looking for self-motivated students (undergraduate, master’s, 
 
 ## Bio
 
-I received my Ph.D. from Johns Hopkins University, advised by Prof. Ryan (Peng) Huang. Following that, I worked with Prof. Baris Kasikci at the University of Washington for two wonderful years. I obtained my B.E. degree in Computer Science from Huazhong University of Science & Technology (HUST). While at HUST, I was fortunate to work with Prof. Hai Jin and Prof. Deqing Zou in the Cluster and Grid Computing Lab, as well as with Prof. Shan Lu at the University of Chicago.
+I received my Ph.D. from Johns Hopkins University, advised by [Prof. Ryan (Peng) Huang](https://web.eecs.umich.edu/~ryanph/). Following that, I worked with [Prof. Baris Kasikci](https://homes.cs.washington.edu/~baris/) at the University of Washington for two wonderful years. I obtained my B.E. degree in Computer Science from Huazhong University of Science & Technology (HUST). While at HUST, I was fortunate to work with Prof. Hai Jin and Prof. Deqing Zou in the Cluster and Grid Computing Lab, as well as with [Prof. Shan Lu](https://people.cs.uchicago.edu/~shanlu/) at the University of Chicago.
 
 - My favorite proverb is "The scholar may not be without breadth of mind and vigorous endurance." from The Analects of Confucius. 
 - If I don't do research, I would spend my time in reading history book, caring for my goldfish, playing games and most importantly, spend time with my wife and kid.
