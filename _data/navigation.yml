@@ -8,6 +8,8 @@ main:
     url: "/#teaching"
   - title: "Service"
     url: "/#service"
+  - title: "Team"
+    url: "/team"
   - title: "Bio"
     url: "/#bio"
 
