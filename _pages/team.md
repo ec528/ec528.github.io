@@ -16,8 +16,8 @@ layout: single
 ### Master’s and Undergraduate Students
 
 [Yi Pan](https://conless.dev/)\\
-Daifeng Li\\
-RuiYan Hu
+Daifeng Li \\
+Ruiyan Hu
 
 ### Alumni
 
