@@ -74,7 +74,7 @@ author:
       url: "https://github.com/yigonghu"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "yigongh@bu.edu"
+      url: "mailto:yigongh@bu.edu"
     - label: "CV"
       icon: "fas fa-fw fa-briefcase"
       url: "../paper/cv.pdf"

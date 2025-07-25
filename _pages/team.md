@@ -29,7 +29,7 @@ Emily Zhai (BSc → Microsoft, 2022) \\
 Gongqi Huang (BSc → Princeton Ph.D., 2022) \\
 Varun Radhakrishnan (BSc → Amazon, 2019) \\
 Justin Shafer (MSc → Westpoint, 2022) \\
-Suyi Liu (BSc → Netflix, 2018) \\
+Suyi Liu (BSc → Netflix, 2018)
 
 ### Others
 
