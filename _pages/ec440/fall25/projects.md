@@ -28,8 +28,8 @@ There are five labs in total. Lab0 is designed to prepare you for the later proj
 
 | Project  | Release | Due | Content | Point |
 |----------------| ----------------| ----------------|
-| [Lab 0: Getting Real](./projects/lab0.md) | 09/03 | 09/19 11:59 PM EST | Bootstrap Pintos | 6 |
-| Lab 1: Threads | |
+| [Lab 0: Getting Real](./projects/lab/lab0.md) | 09/03 | 09/19 11:59 PM EST | Bootstrap Pintos | 6 |
+| [Lab 1: Threads](./projects/lab/lab1.md) | |
 | Lab 2: User Programs | |
 | Lab 3a: Virtual Memory |  |
 | Lab 3b: Mmap Files |  |
@@ -49,6 +49,7 @@ Before running the lab, please review the [Getting Started](#getting-started) se
 | [Build and Run](./projects/build.md) | 
 | [Debug and Test](./projects/test.md) | 
 | [Grading](./projects/grading.md) |  
+| [Reference](./projects/reference/index.md)|
 
 ## Groups
 
@@ -117,7 +118,7 @@ We will grade your assignments based on test results (70% of your grade) as well
 
 ## Submission 
 
-We will be using [GitHub classroom](https://github.com/education) to distribute and collect assignments. You do not have to do anything special to submit your project. We will use a snapshot of your GitHub repository as it exists at the deadline, and grade that version. You can still make changes to your repository after the deadline. But we will be only using the snapshot of your code as of the deadline.
+We will be using [Gradescope](https://www.gradescope.com/courses/1115359) to distribute and collect assignments. To submit your project, upload your code as a zip file to Gradescope before the deadline. Ensure your submission includes all required files and adheres to the submission guidelines provided. Detailed submission instructions are available on each lab's page. Late submissions will be managed according to the late policy outlined below.
 
 ## Late Policies
 

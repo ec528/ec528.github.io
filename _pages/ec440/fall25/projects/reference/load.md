@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /EC440/fall25/projects/loading
+permalink: /EC440/fall25/projects/reference/loading
 author_profile: false  
 classes: ec440-page
 layout: single

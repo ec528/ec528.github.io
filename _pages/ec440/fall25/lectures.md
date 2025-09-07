@@ -11,7 +11,7 @@ layout: single
 | Week   | Date       | Lecture Title | Slides | Readings | Assignments |
 |--------|------------|---------------|--------|----------|-------------|
 | Week 1 | 09/03 Wed  | Course Introduction | [Slides](./slides/1-introduction.pdf) | [Chapter 1](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-threeeasy.pdf), [Chapter 2](https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf) | Lab 0 released |
-| Week 2 | 09/08 Mon  | System Call and Architectural Support | | | |
+| Week 2 | 09/08 Mon  | Architectural Support | [Slides](./slides/2-arch_support.pdf)  | [Chapter 6](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) | |
 |        | 09/10 Wed  | TBD | | | |
 | Week 3 | 09/15 Mon  | TBD | | | |
 |        | 09/17 Wed  | TBD | | | |

@@ -10,7 +10,7 @@ layout: single
 
 ## 0. Project 0 Design Document
 
-Before you turn in your project, you must copy the [project 0 design document template](./real_tmpl.txt) into your source tree under the name pintos/src/p0/DESIGNDOC and fill it in.
+Before you turn in your project, you must copy the [project 0 design document template](./real_tmpl0.txt) into your source tree under the name pintos/src/p0/DESIGNDOC and fill it in.
 
 ## 1. Booting Pintos
 
@@ -123,5 +123,5 @@ You may need to use some functions provided in lib/kernel/console.c, lib/stdio.c
 <div class="notice--warning" markdown="1">
 **Instruction**
 
-To hand in your submission for this lab, first cd to the root of your pintos source code repository. Commit all the changes you have made for this lab (with `git add` and `git commit` command). Then archive the entire repository with `git archive --prefix=lab0/ --format=tar HEAD | gzip > lab0-handin.tar.gz`. Double check the archive file contains the content you want to submit and then submit lab0-handin.tar.gz through [gradescope](https://www.gradescope.com/courses/1115359) before the deadline. For later projects, we will collect group submissions through GitHub classroom.
+To hand in your submission for this lab, first cd to the root of your pintos source code repository. Commit all the changes you have made for this lab (with `git add` and `git commit` command). Then archive the entire repository with `git archive --prefix=lab0/ --format=tar HEAD | gzip > lab0-handin.tar.gz`. Double check the archive file contains the content you want to submit and then submit lab0-handin.tar.gz through [gradescope](https://www.gradescope.com/courses/1115359) before the deadline.
 </div>

@@ -8,7 +8,7 @@ layout: single
 
 # Project 0: Getting Real
 
-<span style="color:red">Due: Friday 09/19 11:59 PM EDT (noon)</span>
+<span style="color:red">Due: Friday 09/19 11:59 PM EDT (night)</span>
 
 This assignment is set to prepare you for the later Pintos projects. It will walk you through what happens after a PC is powered on till when an operating system is up and running, which you may have wondered about before.
 
