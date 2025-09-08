@@ -28,7 +28,9 @@ Here are the sections in this chapter:
 
 * [Background](./lab1_background.md)
 
-* [Project 0 Requirements](./lab1_requirement.md)
+* [Suggestions](./lab1_suggestions.md)
+
+* [Project 1 Requirements](./lab1_requirement.md)
 
 * [FAQ](./lab1_faq.md)
 
