@@ -49,7 +49,7 @@ Before running the lab, please review the [Getting Started](#getting-started) se
 | [Build and Run](./projects/build.md) | 
 | [Debug and Test](./projects/test.md) | 
 | [Grading](./projects/grading.md) |  
-| [Reference](./projects/reference/index.md)|
+| [Appendix](./projects/reference/appendix.md)|
 
 ## Groups
 

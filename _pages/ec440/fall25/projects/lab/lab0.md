@@ -18,7 +18,7 @@ This assignment is set to prepare you for the later Pintos projects. It will wal
 
 * Note that this assignment is much simpler than the remaining projects, because it is intentionally designed to help you warm up.
 
-Before you read the description of this project, read the [Loading](./load.md) section in Code Guide to understand the source-code-level details of the booting process.
+Before you read the description of this project, read the [Loading](../reference/load.md) section in Code Guide to understand the source-code-level details of the booting process.
 
 Here are the sections in this chapter:
 

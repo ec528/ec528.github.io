@@ -58,7 +58,7 @@ TBD
 ## 2. Compiler Toolchain
 
 > **Note:**
-> If you choose option A, you can skip the following part and go back to [Getting Started](../projects.md).
+> If you choose option A, you can skip the following part and go back to [Getting Started](../projects.md#getting-started).
 > This method is not fully tested, so we may not provide much help if you encounter unexpected errors.
 
 ### 2.1: Test Your Compiler Toolchain
