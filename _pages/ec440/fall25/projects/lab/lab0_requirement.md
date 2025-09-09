@@ -14,7 +14,7 @@ Before you turn in your project, you must copy the [project 0 design document te
 
 ## 1. Booting Pintos
 
-Have Pintos development environment setup as described in [Project Setup](./setup.md). Afterwards, execute
+Have Pintos development environment setup as described in [Project Setup](../setup.md). Afterwards, execute
 
 
 ```
