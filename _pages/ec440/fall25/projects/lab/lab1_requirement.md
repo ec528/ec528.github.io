@@ -24,7 +24,7 @@ Then you can tackle either Exercise 3.1 first or Exercise 2.2 first.
 
 * Download the [project 1 design document template](./threads.tmpl.txt). Read through it to motivate your design and fill it in after you finish the project.
 * We recommend that you read the design document template before you start working on the project.
-* See section [Project Documentation](../../appendix/project-documentation.md), for a sample design document that goes along with a fictitious project.
+* See section [Project Documentation](../reference/documentation.md), for a sample design document that goes along with a fictitious project.
 
 ## Task 1: Alarm Clock
 
@@ -62,7 +62,7 @@ If your delays seem too short or too long, reread the explanation of the `-r` op
 **Hint**
 
 * You may want to leverage some synchronization primitive that provides some sort of thread _"waiting"_ functionality, e.g., semaphore.
-* **You do not have to wait for the Synchronization Lecture to be able to use these primitives.** Reading through section [Synchronization](../../appendix/reference-guide/synchronization.md) is sufficient.
+* **You do not have to wait for the Synchronization Lecture to be able to use these primitives.** Reading through section [Synchronization](../reference/synchronization.md) is sufficient.
 * In addition, when modifying some global variable, e.g., a global list, you will need to use some synchronization primitive as well to ensure it is not modified or read concurrently (e.g., a timer interrupt occurs during the modification and we switch to run another thread).
 </div>
 
@@ -72,7 +72,7 @@ If your delays seem too short or too long, reread the explanation of the `-r` op
 **You need to decide where to check whether the elapsed time exceeded the sleep time.**
 
 * The original `timer_sleep` implementation calls `timer_ticks`, which returns **the current `ticks`**.
-* **Check where the static `ticks` variable is \_updated**\_**.** You can search with `grep` or `rg` to help you find this out (see [Development Tools](../../appendix/development-tools.md) for more details).
+* **Check where the static `ticks` variable is \_updated**\_**.** You can search with `grep` or `rg` to help you find this out (see [Development Tools](../reference/development_tools.md) for more details).
 </div>
 
 <span style="color:red;">**The alarm clock implementation is**</span><span style="color:red;">**&#x20;**</span>_<span style="color:red;">**not**</span>_<span style="color:red;">**&#x20;**</span><span style="color:red;">**needed for later projects**</span>, although it could be useful for project 4.
@@ -174,7 +174,7 @@ You need not provide any interface to allow a thread to directly modify other th
 
 <span style="color:green;">**Implement a multilevel feedback queue scheduler**</span> <span style="color:green;">similar to the 4.4BSD scheduler to reduce the average response time for running jobs on your system.</span>
 
-<span style="color:green;">See section</span> [<span style="color:green;">**4.4BSD Scheduler**</span>](../../appendix/4.4bsd-scheduler.md)<span style="color:green;">, for detailed requirements</span>.
+<span style="color:green;">See section</span> [<span style="color:green;">**4.4BSD Scheduler**</span>](../reference/4.4bsd-scheduler.md)<span style="color:green;">, for detailed requirements</span>.
 </div>
 
 Like the priority scheduler, the advanced scheduler chooses the thread to run based on priorities. However, **the advanced scheduler does not do priority donation**.

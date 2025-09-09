@@ -13,7 +13,8 @@ Here is a reference for all the useful materials. The reference guide does not c
 | Appendix   |
 |----------------| 
 | [C Standard](./code_standard.md) |
-| [4.4BSD Scheduler](./4.4bsd-scheduler.md) | 
+| [4.4BSD Scheduler](./4.4bsd-scheduler.md) |
+| [Project Documentation](./documentation.md)|  
 | [A.1 Loading](./load.md) | 
 | [A.2 Threads](./thread.md) |
 | [A.3 Synchronization](./synchronization.md) |
