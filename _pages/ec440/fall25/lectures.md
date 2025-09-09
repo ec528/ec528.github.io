@@ -9,10 +9,10 @@ layout: single
 # Lecture
 
 | Week   | Date       | Lecture Title | Slides | Readings | Assignments |
-|--------|------------|---------------|--------|----------|-------------|
+|--------|----------|--------------------|--------|-----------------------------------------|--------|
 | Week 1 | 09/03 Wed  | Course Introduction | [Slides](./slides/1-introduction.pdf) | [Chapter 1](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-threeeasy.pdf), [Chapter 2](https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf) | Lab 0 released |
 | Week 2 | 09/08 Mon  | Architectural Support | [Slides](./slides/2-arch_support.pdf)  | [Chapter 6](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) | |
-|        | 09/10 Wed  | TBD | | | |
+|        | 09/10 Wed  | Processes |  |  [Chapter 4](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf), [Chapter 5](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) <br> *Optimal*: [A fork() in the road](https://dl.acm.org/doi/pdf/10.1145/3317550.3321435) | |
 | Week 3 | 09/15 Mon  | TBD | | | |
 |        | 09/17 Wed  | TBD | | | |
 |        | 09/19 Fri  | TBD | | | <span style="color:red">Lab 0 due</span>, Lab 1 released  |
