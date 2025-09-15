@@ -14,7 +14,7 @@ layout: single
 | Week 2 | 09/08 Mon  | Architectural Support | [Slides](./slides/2-arch_support.pdf)  | [Chapter 6](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) | |
 |        | 09/10 Wed  | Processes | [Slides](./slides/3-processes.pdf) |  [Chapter 4](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf), [Chapter 5](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) <br> *Optimal*: [A fork() in the road](https://dl.acm.org/doi/pdf/10.1145/3317550.3321435) | |
 | Week 3 | 09/15 Mon  | Threads | [Slides](./slides/4-thread.pdf) | Code: [minish.c](./code/minish.c), [redirsh.c](./code/redirsh.c) <br> [Chapter 26](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf), [Chapter 27](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf)| |
-|        | 09/17 Wed  | Scheduling | | | |
+|        | 09/17 Wed  | Scheduling | | [Chapter 7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [Chapter 8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf) | |
 |        | 09/19 Fri  |  | | | <span style="color:red">Lab 0 due</span>, Lab 1 released  |
 | Week 4 | 09/22 Mon  | TBD | | | |
 |        | 09/24 Wed  | TBD | | | |
