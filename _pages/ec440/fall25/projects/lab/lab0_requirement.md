@@ -38,7 +38,7 @@ pintos --bochs -- run alarm-zero
 
 {: .notice--info}
 **Exercise 0.1** \\
-Take screenshots of the successful booting of Pintos in QEMU and Bochs, each in both the terminal and the GUI window. Put the screenshots under "pintos/src/p0".
+Take screenshots of the successful booting of Pintos in QEMU and Bochs. Put the screenshots under "pintos/src/p0".
 
 ## 2. Debugging
 
