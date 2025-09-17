@@ -42,7 +42,7 @@ Take screenshots of the successful booting of Pintos in QEMU and Bochs. Put the 
 
 ## 2. Debugging
 
-While you are working on the projects, you will frequently use the GNU Debugger (GDB) to help you find bugs in your code. Make sure you read the [GDB section](./test.md) first. In addition, if you are unfamiliar with x86 assembly, the [PCASM](https://www.cs.jhu.edu/~huang/cs318/fall21/project/specs/pcasm-book.pdf) is an excellent book to start. Note that you don't need to read the entire book, just the basic ones are enough.
+While you are working on the projects, you will frequently use the GNU Debugger (GDB) to help you find bugs in your code. Make sure you read the [GDB section](../test.md) first. In addition, if you are unfamiliar with x86 assembly, the [PCASM](https://www.cs.jhu.edu/~huang/cs318/fall21/project/specs/pcasm-book.pdf) is an excellent book to start. Note that you don't need to read the entire book, just the basic ones are enough.
 
 <div class="notice--info" markdown="1">
 **Exercise 0.2.1**
