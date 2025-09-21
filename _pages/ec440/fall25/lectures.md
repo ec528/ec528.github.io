@@ -16,7 +16,7 @@ layout: single
 | Week 3 | 09/15 Mon  | Threads | [Slides](./slides/4-thread.pdf) | Code: [minish.c](./code/minish.c), [redirsh.c](./code/redirsh.c) <br> [Chapter 26](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf), [Chapter 27](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf)| |
 |        | 09/17 Wed  | Scheduling | [Slides](./slides/5-scheduling.pdf) | [Chapter 7](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf), [Chapter 8](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf) | |
 |        | 09/19 Fri  |  | | | <span style="color:red">Lab 0 due</span>, Lab 1 released  |
-| Week 4 | 09/22 Mon  | Synchronization | |  [Chapter 28](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf), [Chapter 29](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf)| |
+| Week 4 | 09/22 Mon  | Synchronization | [Slides](./slides/6-Synchronization.pdf) |  [Chapter 28](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf), [Chapter 29](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf)| |
 |        | 09/24 Wed  | Semaphores and Monitors | | [Chapter 30](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf), [Chapter 31](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf) | |
 | Week 5 | 09/29 Mon  | Synchronization Exercises | | [Chapter 32](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf) | |
 |        | 10/01 Wed  | Virtual Memory I | | [Chapter 15](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf), [Chapter 16](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf), [Chapter 18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf)| |
