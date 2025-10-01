@@ -17,7 +17,7 @@ In this assignment, we give you a minimally functional thread system. Your job i
 
 Before diving into the project description, here are some useful resources to guide you:
 
-- [Build and Run](../build.mdd#1-code-guidance)
+- [Build and Run](../build.md#1-code-guidance)
 - [C Standards](../reference/code_standard.md)
 
 Additionally, the material from [A.1 Loading](../reference/load.md) to [A.5 Memory Allocation](../reference/) in the [Appendix](../reference/appendix.md) will be invaluable, especially the section on [Synchronization](../reference/synchronization.md). Many of your questions, such as how Pintos implements its locks, can be answered in these documents. I recommend skimming through the documentation initially and referring back to it as needed when you encounter specific issues.

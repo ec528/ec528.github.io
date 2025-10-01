@@ -47,7 +47,7 @@ Then you can tackle either Exercise 3.1 first or Exercise 2.2 first.
   * **The argument to `timer_sleep()` is expressed in&#x20;**_**timer ticks**_**, not in milliseconds or any another unit.** There are `TIMER_FREQ` timer ticks per second, where `TIMER_FREQ` is a macro defined in `devices/timer.h`. The default value is 100. We don't recommend changing this value, because any change is likely to cause many of the tests to fail.
   * Separate functions **`timer_msleep()`, `timer_usleep()`**, and **`timer_nsleep()`** do exist for sleeping a specific number of milliseconds, microseconds, or nanoseconds, respectively, but **these will call `timer_sleep()`** automatically when necessary. You do not need to modify them.
 
-If your delays seem too short or too long, reread the explanation of the `-r` option to `pintos` (see section [Debugging versus Testing](../../getting-started/debug-and-test/#debugging-versus-testing)).
+If your delays seem too short or too long, reread the explanation of the `-r` option to `pintos` (see section [Debugging versus Testing](../test.md#1-debugging-versus-testing)).
 
 <div class="notice--info" markdown="1">
 **Hint**
@@ -72,7 +72,7 @@ If your delays seem too short or too long, reread the explanation of the `-r` op
 **You need to decide where to check whether the elapsed time exceeded the sleep time.**
 
 * The original `timer_sleep` implementation calls `timer_ticks`, which returns **the current `ticks`**.
-* **Check where the static `ticks` variable is \_updated**\_**.** You can search with `grep` or `rg` to help you find this out (see [Development Tools](../reference/development_tools.md) for more details).
+* **Check where the static `ticks` variable is \_updated**\_**.** You can search with `grep` or `rg` to help you find this out (see [Development Tools](../reference/developement_tool.md) for more details).
 </div>
 
 <span style="color:red;">**The alarm clock implementation is**</span><span style="color:red;">**&#x20;**</span>_<span style="color:red;">**not**</span>_<span style="color:red;">**&#x20;**</span><span style="color:red;">**needed for later projects**</span>, although it could be useful for project 4.
