@@ -22,8 +22,8 @@ layout: single
 |        | 10/01 Wed  | Deadlock | [Slides](./slides/9-deadlock.pdf) | [Chapter 32](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf)| |
 | Week 6 | 10/06 Mon  | Virtual Memory I |  [Slides](./slides/10-vm1.pdf) | [Chapter 15](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf), [Chapter 16](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf), [Chapter 18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf)| |
 |        | 10/08 Wed  | Lab day| | | |
-|        | 10/13 Sun  |     | | | <span style="color:red">Lab 1 due</span>, Lab 2 released | 
-|  Week 7    | 10/14 Tue  | Virtual Memory II | | [Chapter 19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [Chapter 20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)| |
+|  Week 7       | 10/13 Mon  |     | | | <span style="color:red">Lab 1 due</span>, Lab 2 released | 
+|     | 10/14 Tue  | Virtual Memory II | | [Chapter 19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [Chapter 20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)| |
 |        | 10/15 Wed  | Page Replacement | | | |
 | Week 8 | 10/20 Mon  | Midterm Review | | | |
 |        | 10/22 Wed  | <span style="color:red"> **Midterm Exam**  <span style="color:red"> | | | |
