@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /EC440/fall25/projects/reference/memory-allocation
+permalink: /EC440/fall25/projects/reference/memory_allocation
 author_profile: false  
 classes: ec440-page
 layout: single

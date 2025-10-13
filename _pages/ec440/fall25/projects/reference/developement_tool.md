@@ -31,7 +31,7 @@ The Linux command line utility **`grep`** may satisfy your needs but there is **
 
 ## 3. Git
 
-<mark style="color:Crimson;">**It's crucial that you use a source code control system to manage your Pintos code.**</mark> This will allow you to keep track of your changes. For this class we recommend that you use Git. If you don't already know how to use Git, we recommend that you read the [Pro Git](http://git-scm.com/book) book online.
+<span style="color:Crimson;">**It's crucial that you use a source code control system to manage your Pintos code.**</mark> This will allow you to keep track of your changes. For this class we recommend that you use Git. If you don't already know how to use Git, we recommend that you read the [Pro Git](http://git-scm.com/book) book online.
 
 ## 4. Think tenth, code once
 

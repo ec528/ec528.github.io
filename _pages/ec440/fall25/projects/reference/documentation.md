@@ -16,7 +16,7 @@ layout: single
 
 <span style="color:green;">**Implement**</span> **`thread_join()`.**
 
-* <span style="color:blue;">**Function: void thread\_join (tid\_t tid)**</span>
+* <span style="color:CornFlowerBlue;">**Function: void thread\_join (tid\_t tid)**</span>
   * **Blocks the current thread until thread tid exits.**
   * If A is the running thread and B is the argument, then we say that "A joins B."\\
   * **Incidentally, the argument is a thread id, instead of a thread pointer**, because a thread pointer is not unique over time. That is, when a thread dies, its memory may be, whether immediately or much later, reused for another thread. If thread A over time had two children B and C that were stored at the same address, then `thread_join(B)` and `thread_join(C)` would be ambiguous.

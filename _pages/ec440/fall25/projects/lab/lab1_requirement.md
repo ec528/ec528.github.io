@@ -9,7 +9,7 @@ layout: single
 # Submission Instruction
 We will be using [GitHub classroom](https://classroom.github.com/a/kYV5Orqs) to distribute and collect assignments. You do not have to do anything special to submit your project. We will use a snapshot of your GitHub repository as it exists at the deadline, and grade that version. You can still make changes to your repository after the deadline. But we will be only using the snapshot of your code as of the deadline.
 
-We will collect your solution automatically through GitHub by taking a snapshot by the deadline. Thus, be sure to commit your changes and do a <span style="color:Crimson;">**git push**</span> to GitHub, especially in the last few minutes! <span style="color:Crimson;">**Your submission must reside in a branch called lab1-handin**</span>. You can create this branch with <span style="color:Crimson;">**git checkout -b lab1-handin**</span>. You can use other branches (e.g., <span style="color:Crimson;">**main**</span> or <span style="color:Crimson;">**lab1-dev**</span>) during development, but be sure to sync these changes to the submission branch with <span style="color:Crimson;">**git checkout lab1-handin**</span> then <span style="color:Crimson;">**git merge <branch_name>**</span>.
+We will collect your solution automatically through GitHub by taking a snapshot by the deadline. Thus, be sure to commit your changes and do a <span style="color:Crimson;">**git push**</span> to GitHub, especially in the last few minutes! <span style="color:Crimson;">**Your submission must reside in a branch called lab1-handin**</span>. You can create this branch with <span style="color:Crimson;">**git checkout -b lab1-handin**</span>. You can use other branches (e.g., <span style="color:Crimson;">**main**</span> or <span style="color:Crimson;">**lab1-dev**</span>) during development, but be sure to sync these changes to the submission branch with <span style="color:Crimson;">**git checkout lab1-handin**</span> then <span style="color:Crimson;">**git merge \<branch_name\>**</span>.
 
 Double check that your submission resides in the correct branch <span style="color:Crimson;">**lab1-handin**</span> (note the middle part is a dash -, not underscore) by the deadline. Using a different branch name will result in failure to collect and grade your submission in time.
 
@@ -51,7 +51,7 @@ Then you can tackle either Exercise 3.1 first or Exercise 2.2 first.
 </div>
 
 
-* <span style="color:blue;">**Function: void timer\_sleep (int64\_t ticks)**</span>
+* <span style="color:CornFlowerBlue;">**Function: void timer\_sleep (int64\_t ticks)**</span>
   * **Suspends execution of the calling thread until time has advanced by at least&#x20;**_**ticks**_ **timer ticks.**
   * Unless the system is otherwise idle, the thread need not wake up after exactly _ticks_. Just put it on the ready queue after they have waited for the right amount of time.
   * `timer_sleep()` is useful for threads that operate in real-time, e.g. for blinking the cursor once per second.
@@ -166,10 +166,10 @@ For this exercise, **you need to consider&#x20;**_**all the scenarios**_ **where
 <span style="color:green;">Skeletons for these functions are provided in</span> <span style="color:green;">**threads/thread.c**</span><span style="color:green;">.</span>
 </div>
 
-* <span style="color:blue;">**Function: void thread\_set\_priority (int new\_priority)**</span>
+* <span style="color:CornFlowerBlue;">**Function: void thread\_set\_priority (int new\_priority)**</span>
   * **Sets the current thread's priority to&#x20;**_**new\_priority**_**.**
   * If the current thread no longer has the highest priority, **yields**.
-* <span style="color:blue;">**Function: int thread\_get\_priority (void)**</span>
+* <span style="color:CornFlowerBlue;">**Function: int thread\_get\_priority (void)**</span>
   * **Returns the current thread's priority.** In the presence of priority donation, returns the higher (donated) priority.
 
 You need not provide any interface to allow a thread to directly modify other threads' priorities.

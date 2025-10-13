@@ -30,7 +30,7 @@ There are five labs in total. Lab0 is designed to prepare you for the later proj
 |----------------| ----------------| ----------------|
 | [Lab 0: Getting Real](./projects/lab/lab0.md) | 09/03 | 09/19 11:59 PM EST | Bootstrap Pintos | 6 |
 | [Lab 1: Threads](./projects/lab/lab1.md) | 09/17 | 10/13 11:59 PM EST | Kernel Threads Scheduling | 12 |
-| Lab 2: User Programs | |
+| [Lab 2: User Programs](./projects/lab/lab2.md) | 10/13 | 11/07 11:59 PM EST |  User programs, System calls | 12 |
 | Lab 3a: Virtual Memory |  |
 | Lab 3b: Mmap Files |  |
 |(Optional) Lab4: File Systems |
@@ -128,9 +128,9 @@ Late submissions without or exceeding grace period will receive penalties as fol
 
 ## Cheating and Collaboration
 
-<span style="color:red">**Warning: This class has zero tolerance for cheating. We will run tools to check your submission against a comprehensive database of solutions including past and present submissions for potential cheating. The consequences are very high. 
+<span style="color:red">**Warning: This class has zero tolerance for cheating. We will run tools to check your submission against a comprehensive database of solutions including past and present submissions for potential cheating. The consequences are very high.**</span>
 
-The basic policies for the project assignments are as follows.**</span>
+The basic policies for the project assignments are as follows.
 
 * Never copy project code or text found on the Internet, e.g., GitHub.
 * Never share code or text on the project. That also means do not make your solutions public on the Internet.
