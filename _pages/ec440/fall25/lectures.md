@@ -23,13 +23,13 @@ layout: single
 | Week 6 | 10/06 Mon  | Virtual Memory I |  [Slides](./slides/10-vm1.pdf) | [Chapter 15](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf), [Chapter 16](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf), [Chapter 18](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf)| |
 |        | 10/08 Wed  | Lab day| | | |
 |  Week 7       | 10/13 Mon  |     | | | <span style="color:red">Lab 1 due</span>, Lab 2 released | 
-|     | 10/14 Tue  | Virtual Memory II | | [Chapter 19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [Chapter 20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)| |
-|        | 10/15 Wed  | Page Replacement | | | |
+|     | 10/14 Tue  | Virtual Memory II | [Slides](./slides/11-vm2.pdf) | [Chapter 19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [Chapter 20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)| |
+|        | 10/15 Wed  | Page Replacement | [Slides](./slides/12-vm_policy.pdf) | [Chapter 21](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf), [Chapter 22](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf), [Chapter 23](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-vax.pdf) | |
 | Week 8 | 10/20 Mon  | Midterm Review | | | |
 |        | 10/22 Wed  | <span style="color:red"> **Midterm Exam**  <span style="color:red"> | | | |
-| Week 9 | 10/27 Mon  | Dynamic Memory Allocation | | | |
-|        | 10/29 Wed  | IO & Disks | | | |
-| Week 10 | 11/03 Mon | File Systems | | | |
+| Week 9 | 10/27 Mon  | Dynamic Memory Allocation | | [Chapter 14](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf), [Chapter 17](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-freespace.pdf)| |
+|        | 10/29 Wed  | IO & Disks | | [Chapter 36](https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf), [Chapter 37](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf) | |
+| Week 10 | 11/03 Mon | File Systems | | [Chapter 39](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | |
 |        | 11/05 Wed  |  Lab day | | | |
 |        | 11/07 Fri  |     | | | <span style="color:red">Lab 2 due</span>, Lab 3 released | 
 | Week 11 | 11/10 Mon  |  File Systems II| | | |
