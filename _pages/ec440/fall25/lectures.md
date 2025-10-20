@@ -25,7 +25,7 @@ layout: single
 |  Week 7       | 10/13 Mon  |     | | | <span style="color:red">Lab 1 due</span>, Lab 2 released | 
 |     | 10/14 Tue  | Virtual Memory II | [Slides](./slides/11-vm2.pdf) | [Chapter 19](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf), [Chapter 20](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)| |
 |        | 10/15 Wed  | Page Replacement | [Slides](./slides/12-vm_policy.pdf) | [Chapter 21](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf), [Chapter 22](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf), [Chapter 23](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-vax.pdf) | |
-| Week 8 | 10/20 Mon  | Midterm Review | | | |
+| Week 8 | 10/20 Mon  | Midterm Review | [Slides](./slides/midterm.pdf) | | |
 |        | 10/22 Wed  | <span style="color:red"> **Midterm Exam**  <span style="color:red"> | | | |
 | Week 9 | 10/27 Mon  | Notes for Pintos  | | | |
 |        | 10/29 Wed  |  Dynamic Memory Allocation | | [Chapter 14](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf), [Chapter 17](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-freespace.pdf) | |
