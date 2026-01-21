@@ -10,7 +10,7 @@ layout: single
 
 | Week   | Date       | Lecture Title | Slides | Readings | 
 |--------|----------|--------------------|--------|-----------------------------------------|
-| Week 1 | 01/21 Wed  | Course Introduction | [Slides](./) | [How to Read a Paper](../../papers/how_to_read.pdf) |  
+| Week 1 | 01/21 Wed  | Course Introduction | [Slides](./slides/1-intoduction.pdf) | [How to Read a Paper](../../papers/how_to_read.pdf) |  
 | Week 2 | 01/26 Mon  | Overview of Cloud Computing   | [Slides](./)  | [The Datacenter as a Computer](https://research.google/pubs/the-datacenter-as-a-computer-an-introduction-to-the-design-of-warehouse-scale-machines-second-edition/) (Chapters 1 through 3) | 
 |        | 01/28 Wed  | Intro to Distributed Systems  | [Slides](./) | [The Datacenter as a Computer](https://research.google/pubs/the-datacenter-as-a-computer-an-introduction-to-the-design-of-warehouse-scale-machines-second-edition/) (Chapters 1 through 3) | 
 | Week 3 | 02/02 Mon  |  Case Study: Google File Sys | [Slides](./) | [GFS](../../papers/gfs.pdf)  | 
