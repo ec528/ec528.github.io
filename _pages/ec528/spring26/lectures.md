@@ -27,23 +27,36 @@ semester:
 
 {% assign lectures = site.data.spring26_lecture %}
 
-{% assign start = page.semester.start_date | date: "%s" %}
+{% assign start = page.semester.start_date | date: "%s" | plus: 43200 %}
+{% assign current = start %}
+{% assign start_dow = start | date: "%a" %}
+{% case start_dow %}
+  {% when "Mon" %}{% assign start_monday = start %}
+  {% when "Tue" %}{% assign start_monday = start | minus: 86400 %}
+  {% when "Wed" %}{% assign start_monday = start | minus: 172800 %}
+  {% when "Thu" %}{% assign start_monday = start | minus: 259200 %}
+  {% when "Fri" %}{% assign start_monday = start | minus: 345600 %}
+  {% when "Sat" %}{% assign start_monday = start | minus: 432000 %}
+  {% when "Sun" %}{% assign start_monday = start | minus: 518400 %}
+{% endcase %}
 {% assign one_day = 86400 %}
-{% assign current = page.semester.start_date | date: "%s" %}
 {% assign lec_count = 0 %}
 
 {% for lec in lectures %}
   {% assign lec_date = current | date: "%m/%d %a" %}
-  {% assign week = lec_count | plus: 2 | divided_by: 2 %}
+  {% assign diff_secs = current | minus: start_monday %}
+  {% assign week = diff_secs | divided_by: 604800 | plus: 1 %}
 
   <tr>
     <td>Week {{ week }}</td>
     <td>{{ lec_date }}</td>
 
     {% if lec.no_class or lec.canceled %}
-      <td><strong>No Class{% if lec.note %} ({{ lec.note }}){% endif %}</strong></td>
+      <td><strong>No Class</strong></td>
       <td></td>
       <td></td>
+      <td></td>
+      <td>{% if lec.note %}{{ lec.note }}{% endif %}</td>
     {% else %}
       <td>{{ lec.title }}</td>
       <td>
@@ -58,6 +71,7 @@ semester:
           {% endfor %}
         {% endif %}
       </td>
+      <td>{% if lec.note %}{{ lec.note }}{% endif %}</td>
       {% assign lec_count = lec_count | plus: 1 %}
     {% endif %}
   </tr>
