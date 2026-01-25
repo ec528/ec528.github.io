@@ -1,0 +1,168 @@
+- title: "Course Introduction"
+  slides: "./slides/1-intoduction.pdf"
+  readings:
+    - name: "How to Read a Paper"
+      link: "../../papers/how_to_read.pdf"
+
+- title: "Snow Day"
+  note: "Class canceled due to snow day."
+
+- title: "The Rise of Cloud Computing"
+  slides: "./"
+  readings:
+    - name: "The Datacenter as a Computer (Chapters 1–3)"
+      link: "https://research.google/pubs/the-datacenter-as-a-computer-an-introduction-to-the-design-of-warehouse-scale-machines-second-edition/"
+
+- title: "Distributed System Foundation"
+  slides: "./"
+  readings:
+    - name: "Above the Clouds"
+      link: "../../papers/EECS-2009-28.pdf"
+
+- title: "Case Study: Google File System"
+  slides: "./"
+  readings:
+    - name: "GFS"
+      link: "../../papers/gfs.pdf"
+
+- title: "Lab Day"
+  slides:
+  readings:
+
+- title: "Data-parallel Computation"
+  slides: "./"
+  readings:
+    - name: "MapReduce"
+      link: "../../papers/mapreduce-osdi04.pdf"
+    - name: "Hive"
+      link: "../../papers/vldb09-938.pdf"
+
+
+
+- title: "Fault Tolerance"
+  slides: "./"
+  readings:
+    - name: "Raft"
+      link: "../../papers/atc14-paper-ongaro.pdf"
+
+- title: "Data Consistency"
+  slides: "./"
+  readings:
+    - name: "ZooKeeper"
+      link: "../../papers/Hunt.pdf"
+
+- title: "Big Data Frameworks"
+  slides: "./"
+  readings:
+    - name: "Spark"
+      link: "../../papers/nsdi12-final138.pdf"
+
+- title: "Milestone Demo I"
+  slides:
+  readings:
+
+- title: "Virtualization"
+  slides: "./"
+  readings:
+    - name: "Xen"
+      link: "../../papers/2003-xensosp.pdf"
+
+- title: "Datacenter Architectures"
+  slides: "./"
+  readings:
+    - name: "VL2"
+      link: "../../papers/VL2.pdf"
+    - name: "Aquila"
+      link: "../../papers/NSDI22_Aquila.pdf"
+
+- title: "Spring Break"
+ 
+
+- title: "Spring Break"
+
+
+- title: "Milestone Demos II"
+  slides:
+  readings:
+
+- title: "Resource Management"
+  slides: "./"
+  readings:
+    - name: "Mesos"
+      link: "../../papers/NSDI11_Mesos.pdf"
+
+- title: "Resource Management"
+  slides: "./"
+  readings:
+    - name: "Borg"
+      link: "../../papers/EuroSys15_Borg.pdf"
+    - name: "Kubernetes"
+      link: ""
+
+- title: "Cloud Storage Systems"
+  slides: "./"
+  readings:
+    - name: "Ceph"
+      link: "../../papers/OSDI06_Ceph.pdf"
+
+- title: "Cloud Networking"
+  slides: "./"
+  readings:
+    - name: "Flat Datacenter Storage"
+      link: "../../papers/OSDI12_FDS.pdf"
+
+- title: "Distributed Systems II"
+  slides: "./"
+  readings:
+    - name: "Kafka"
+      link: "../../papers/NetDB11_Kafka.pdf"
+    - name: "Dynamo"
+      link: "../../papers/SOSP07_Dynamo.pdf"
+
+- title: "Milestone Demos III"
+  slides:
+  readings:
+
+- title: "Performance Tracing"
+  slides: "./"
+  readings:
+    - name: "The Mystery Machine"
+      link: "../../papers/osdi14-paper-chow.pdf"
+    - name: "Canopy"
+      link: "../../papers/kaldor2017canopy.pdf"
+
+- title: "Cloud Failures"
+  slides: "./"
+  readings:
+    - name: "Understanding Failures"
+      link: "../../papers/socc16-cos.pdf"
+    - name: "Large-scale Failure Study"
+      link: "../../papers/socc22-study.pdf"
+
+- title: "Cloud Failures II"
+  slides: "./"
+  readings:
+    - name: "Gray Failure"
+      link: "../../papers/grey.pdf"
+    - name: "AutoWatchdog"
+      link: "../../papers/nsdi20-paper-lou.pdf"
+
+- title: "LLM Infrastructure"
+  slides: "./"
+  readings:
+    - name: "KV Cache"
+      link: ""
+
+- title: "LLM Infrastructure II"
+  slides: "./"
+  readings:
+    - name: "vLLM"
+      link: ""
+
+- title: "Final Presentations I"
+  slides:
+  readings:
+
+- title: "Final Presentations II"
+  slides:
+  readings:
