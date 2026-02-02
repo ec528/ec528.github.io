@@ -14,7 +14,7 @@
       link: "https://research.google/pubs/the-datacenter-as-a-computer-an-introduction-to-the-design-of-warehouse-scale-machines-second-edition/"
 
 - title: "Distributed System Foundation"
-  slides: "./"
+  slides: "/slides/spring26/3-distributed-systems.pdf"
   readings:
     - name: "Above the Clouds"
       link: "/papers/EECS-2009-28.pdf"
