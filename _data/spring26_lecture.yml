@@ -20,7 +20,7 @@
       link: "/papers/EECS-2009-28.pdf"
 
 - title: "Case Study: Google File System"
-  slides: "./"
+  slides: "./slides/spring26/4-gfs.pdf"
   readings:
     - name: "GFS"
       link: "/papers/gfs.pdf"
