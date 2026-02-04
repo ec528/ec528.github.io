@@ -111,13 +111,11 @@
     - name: "Flat Datacenter Storage"
       link: "/papers/OSDI12_FDS.pdf"
 
-- title: "Distributed Systems II"
+- title: "Cloud Data Systems"
   slides: "./"
   readings:
-    - name: "Kafka"
-      link: "/papers/NetDB11_Kafka.pdf"
-    - name: "Dynamo"
-      link: "/papers/SOSP07_Dynamo.pdf"
+    - name: "Amazon Aurora"
+      link: "/papers/aurora.pdf"
 
 - title: "Milestone Demos III"
   slides:
