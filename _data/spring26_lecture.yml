@@ -39,11 +39,11 @@
 
 
 
-- title: "Fault Tolerance"
-  slides: "./"
-  readings:
-    - name: "Raft"
-      link: "/papers/atc14-paper-ongaro.pdf"
+# - title: "Fault Tolerance"
+#   slides: "./"
+#   readings:
+#     - name: "Raft"
+#       link: "/papers/atc14-paper-ongaro.pdf"
 
 - title: "Data Consistency"
   slides: "./"
@@ -110,6 +110,12 @@
   readings:
     - name: "Flat Datacenter Storage"
       link: "/papers/OSDI12_FDS.pdf"
+
+- title: "Data Processing "
+  slides: "./"
+  readings:
+    - name: "Kafka"
+      link: "/papers/kafka.pdf"
 
 - title: "Cloud Data Systems"
   slides: "./"
