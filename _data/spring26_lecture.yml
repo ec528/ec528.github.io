@@ -34,7 +34,7 @@
   readings:
     - name: "MapReduce"
       link: "/papers/mapreduce-osdi04.pdf"
-    - name: "Optional:Hive"
+    - name: "Hive(Optional)"
       link: "/papers/vldb09-938.pdf"
 
 
