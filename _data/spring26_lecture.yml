@@ -115,7 +115,7 @@
   slides: "./"
   readings:
     - name: "Kafka"
-      link: "/papers/kafka.pdf"
+      link: "/papers/NetDB11_Kafka.pdf"
 
 - title: "Cloud Data Systems"
   slides: "./"
