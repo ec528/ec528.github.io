@@ -30,7 +30,7 @@
   readings:
 
 - title: "Data-parallel Computation"
-  slides: "./"
+  slides: "/slides/spring26/5-mapreduce.pdf"
   readings:
     - name: "MapReduce"
       link: "/papers/mapreduce-osdi04.pdf"
