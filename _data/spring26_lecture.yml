@@ -48,10 +48,15 @@
 - title: "Data Consistency"
   slides: "./"
   readings:
-    - name: "ZooKeeper"
-      link: "/papers/Hunt.pdf"
     - name: "Raft"
       link: "/papers/atc14-paper-ongaro.pdf"
+
+- title: "Data Consistency II"
+  slides: "./"
+  readings:
+    - name: "ZooKeeper"
+      link: "/papers/Hunt.pdf"
+
 
 - title: "Big Data Frameworks"
   slides: "./"
@@ -115,11 +120,11 @@
     - name: "Flat Datacenter Storage"
       link: "/papers/OSDI12_FDS.pdf"
 
-- title: "Data Processing "
-  slides: "./"
-  readings:
-    - name: "Kafka"
-      link: "/papers/NetDB11_Kafka.pdf"
+# - title: "Data Processing "
+#   slides: "./"
+#   readings:
+#     - name: "Kafka"
+#       link: "/papers/NetDB11_Kafka.pdf"
 
 - title: "Cloud Data Systems"
   slides: "./"
