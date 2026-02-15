@@ -50,6 +50,8 @@
   readings:
     - name: "ZooKeeper"
       link: "/papers/Hunt.pdf"
+    - name: "Raft"
+      link: "/papers/atc14-paper-ongaro.pdf"
 
 - title: "Big Data Frameworks"
   slides: "./"
