@@ -50,6 +50,8 @@
   readings:
     - name: "Raft"
       link: "/papers/atc14-paper-ongaro.pdf"
+    - name: "Paxos(Optional)"
+      link: "/papers/paxos.pdf"  
 
 - title: "Data Consistency II"
   slides: "./"
