@@ -49,7 +49,7 @@
   slides: "./"
   readings:
     - name: "Raft"
-      link: "/papers/atc14-paper-ongaro.pdf"
+      link: "/papers/raft-extended.pdf"
     - name: "Paxos(Optional)"
       link: "/papers/paxos.pdf"  
 
