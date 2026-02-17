@@ -56,9 +56,21 @@
 - title: "Data Consistency II"
   slides: "./"
   readings:
+    - name: "Raft"
+      link: "/papers/raft-extended.pdf"
+    - name: "Paxos(Optional)"
+      link: "/papers/paxos.pdf"  
+  slides: "./"
+
+- title: "ZooKeeper"
+  slides: "./"
+  readings:
     - name: "ZooKeeper"
       link: "/papers/Hunt.pdf"
 
+- title: "Milestone Demo I"
+  slides:
+  readings:
 
 - title: "Big Data Frameworks"
   slides: "./"
@@ -66,23 +78,19 @@
     - name: "Spark"
       link: "/papers/nsdi12-final138.pdf"
 
-- title: "Milestone Demo I"
-  slides:
-  readings:
-
 - title: "Virtualization"
   slides: "./"
   readings:
     - name: "Xen"
       link: "/papers/2003-xensosp.pdf"
 
-- title: "Datacenter Architectures"
-  slides: "./"
-  readings:
-    - name: "VL2"
-      link: "/papers/VL2.pdf"
-    - name: "Aquila"
-      link: "/papers/NSDI22_Aquila.pdf"
+# - title: "Datacenter Architectures"
+#   slides: "./"
+#   readings:
+#     - name: "VL2"
+#       link: "/papers/VL2.pdf"
+#     - name: "Aquila"
+#       link: "/papers/NSDI22_Aquila.pdf"
 
 - title: "Resource Management"
   slides: "./"
@@ -122,11 +130,11 @@
     - name: "Flat Datacenter Storage"
       link: "/papers/OSDI12_FDS.pdf"
 
-# - title: "Data Processing "
-#   slides: "./"
-#   readings:
-#     - name: "Kafka"
-#       link: "/papers/NetDB11_Kafka.pdf"
+- title: "Data Processing "
+  slides: "./"
+  readings:
+    - name: "Kafka"
+      link: "/papers/NetDB11_Kafka.pdf"
 
 - title: "Cloud Data Systems"
   slides: "./"
@@ -154,13 +162,13 @@
     - name: "Large-scale Failure Study"
       link: "/papers/socc22-study.pdf"
 
-- title: "Cloud Failures II"
-  slides: "./"
-  readings:
-    - name: "Gray Failure"
-      link: "/papers/grey.pdf"
-    - name: "AutoWatchdog"
-      link: "/papers/nsdi20-paper-lou.pdf"
+# - title: "Cloud Failures II"
+#   slides: "./"
+#   readings:
+#     - name: "Gray Failure"
+#       link: "/papers/grey.pdf"
+#     - name: "AutoWatchdog"
+#       link: "/papers/nsdi20-paper-lou.pdf"
 
 - title: "LLM Infrastructure"
   slides: "./"
