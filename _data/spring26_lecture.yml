@@ -46,7 +46,7 @@
 #       link: "/papers/atc14-paper-ongaro.pdf"
 
 - title: "Data Consistency"
-  slides: "./"
+  slides: "/slides/spring26/6-consensus.pdf"
   readings:
     - name: "Raft"
       link: "/papers/raft-extended.pdf"
@@ -54,13 +54,12 @@
       link: "/papers/paxos.pdf"  
 
 - title: "Data Consistency II"
-  slides: "./"
+  slides: "/slides/spring26/6-consensus.pdf"
   readings:
     - name: "Raft"
       link: "/papers/raft-extended.pdf"
     - name: "Paxos(Optional)"
       link: "/papers/paxos.pdf"  
-  slides: "./"
 
 - title: "ZooKeeper"
   slides: "./"
