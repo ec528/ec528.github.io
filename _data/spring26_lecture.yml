@@ -91,18 +91,19 @@
 #     - name: "Aquila"
 #       link: "/papers/NSDI22_Aquila.pdf"
 
-- title: "Resource Management"
-  slides: "./"
-  readings:
-    - name: "Mesos"
-      link: "/papers/NSDI11_Mesos.pdf"
+
       
 - title: "Spring Break"
  
 
 - title: "Spring Break"
 
-
+- title: "Resource Management"
+  slides: "./"
+  readings:
+    - name: "Mesos"
+      link: "/papers/NSDI11_Mesos.pdf"
+      
 - title: "Milestone Demos II"
   slides:
   readings:
