@@ -93,13 +93,6 @@
 #     - name: "Aquila"
 #       link: "/papers/NSDI22_Aquila.pdf"
 
-
-      
-- title: "Spring Break"
- 
-
-- title: "Spring Break"
-
 - title: "Resource Management"
   slides: "./"
   readings:
@@ -108,6 +101,14 @@
     - name: "Borg"
       link: "/papers/EuroSys15_Borg.pdf"
       
+
+
+      
+- title: "Spring Break"
+ 
+
+- title: "Spring Break"
+
 
 
 
