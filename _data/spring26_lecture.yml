@@ -38,7 +38,6 @@
       link: "/papers/vldb09-938.pdf"
 
 
-
 # - title: "Fault Tolerance"
 #   slides: "./"
 #   readings:
@@ -61,21 +60,24 @@
     - name: "Paxos(Optional)"
       link: "/papers/paxos.pdf"  
 
-- title: "ZooKeeper"
-  slides: "./"
-  readings:
-    - name: "ZooKeeper"
-      link: "/papers/Hunt.pdf"
+- title: "Snow Day"
+  note: "Class canceled due to snow day."
 
 - title: "Milestone Demo I"
   slides:
   readings:
 
-- title: "Big Data Frameworks"
-  slides: "./"
-  readings:
-    - name: "Spark"
-      link: "/papers/nsdi12-final138.pdf"
+# - title: "ZooKeeper"
+#   slides: "./"
+#   readings:
+#     - name: "ZooKeeper"
+#       link: "/papers/Hunt.pdf"
+
+# - title: "Big Data Frameworks"
+#   slides: "./"
+#   readings:
+#     - name: "Spark"
+#       link: "/papers/nsdi12-final138.pdf"
 
 - title: "Virtualization"
   slides: "./"
@@ -103,38 +105,35 @@
   readings:
     - name: "Mesos"
       link: "/papers/NSDI11_Mesos.pdf"
-      
-- title: "Milestone Demos II"
-  slides:
-  readings:
-
-
-
-- title: "Resource Management"
-  slides: "./"
-  readings:
     - name: "Borg"
       link: "/papers/EuroSys15_Borg.pdf"
-    - name: "Kubernetes"
-      link: ""
+      
+
+
+
+# - title: "Resource Management"
+#   slides: "./"
+#   readings:
+
+#     - name: "Kubernetes"
+#       link: ""
 
 - title: "Cloud Storage Systems"
   slides: "./"
   readings:
     - name: "Ceph"
       link: "/papers/OSDI06_Ceph.pdf"
-
-- title: "Cloud Networking"
-  slides: "./"
-  readings:
     - name: "Flat Datacenter Storage"
       link: "/papers/OSDI12_FDS.pdf"
 
-- title: "Data Processing "
-  slides: "./"
+- title: "Milestone Demos II"
+  slides:
   readings:
-    - name: "Kafka"
-      link: "/papers/NetDB11_Kafka.pdf"
+
+
+# - title: "Cloud Networking"
+#   slides: "./"
+#   readings:
 
 - title: "Cloud Data Systems"
   slides: "./"
@@ -142,9 +141,36 @@
     - name: "Amazon Aurora"
       link: "/papers/aurora.pdf"
 
+- title: "Data Processing "
+  slides: "./"
+  readings:
+    - name: "Kafka"
+      link: "/papers/NetDB11_Kafka.pdf"
+      readings:
+
+- title: "Data Processing II"
+  slides: "./"
+  readings:
+    - name: "Spark"
+      link: "/papers/nsdi12-final138.pdf"
+
+- title: "Severless Computing"
+  slides: "./"
+  readings:
+    - name: ""
+
+
 - title: "Milestone Demos III"
   slides:
   readings:
+
+- title: "Performance Issue"
+  slides: "./"
+  readings:
+    - name: "The Tail at Scale"
+      link: "/papers/osdi14-paper-chow.pdf"
+    - name: "Metastable Failure"
+      link: "/papers/kaldor2017canopy.pdf"
 
 - title: "Performance Tracing"
   slides: "./"
@@ -161,6 +187,12 @@
       link: "/papers/socc16-cos.pdf"
     - name: "Large-scale Failure Study"
       link: "/papers/socc22-study.pdf"
+
+- title: "Runtime Checking"
+  slides: "./"
+  readings:
+    - name: ""
+
 
 # - title: "Cloud Failures II"
 #   slides: "./"
