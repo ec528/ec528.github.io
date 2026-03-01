@@ -127,9 +127,6 @@
     - name: "Flat Datacenter Storage"
       link: "/papers/OSDI12_FDS.pdf"
 
-- title: "Milestone Demos II"
-  slides:
-  readings:
 
 
 # - title: "Cloud Networking"
@@ -141,6 +138,11 @@
   readings:
     - name: "Amazon Aurora"
       link: "/papers/aurora.pdf"
+
+- title: "Milestone Demos II"
+  slides:
+  readings:
+
 
 - title: "Data Processing "
   slides: "./"
@@ -158,7 +160,8 @@
 - title: "Severless Computing"
   slides: "./"
   readings:
-    - name: ""
+    - name: "Serverless Computing"
+      link: "/papers/Berkeley_Serverless.pdf"
 
 
 - title: "Milestone Demos III"
