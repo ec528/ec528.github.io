@@ -80,7 +80,7 @@
 #       link: "/papers/nsdi12-final138.pdf"
 
 - title: "Virtualization"
-  slides: "./"
+  slides: "/slides/spring26/8-xen.pdf"
   readings:
     - name: "Xen"
       link: "/papers/2003-xensosp.pdf"
