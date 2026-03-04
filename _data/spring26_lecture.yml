@@ -94,7 +94,7 @@
 #       link: "/papers/NSDI22_Aquila.pdf"
 
 - title: "Resource Management"
-  slides: "./"
+  slides: "/slides/spring26/9-resource.pdf"
   readings:
     - name: "Mesos"
       link: "/papers/NSDI11_Mesos.pdf"
