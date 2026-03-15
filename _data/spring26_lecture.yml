@@ -136,8 +136,10 @@
 - title: "Cloud Data Systems"
   slides: "./"
   readings:
-    - name: "Amazon Aurora"
-      link: "/papers/aurora.pdf"
+  - name: "Dynamo"
+    link: "/papers/SOSP07_Dynamo.pdf"
+  - name: "DynamoDB"
+    link: "/papers/atc22-DynamoDB.pdf"
 
 - title: "Milestone Demos II"
   slides:
@@ -172,17 +174,17 @@
   slides: "./"
   readings:
     - name: "The Tail at Scale"
-      link: "/papers/osdi14-paper-chow.pdf"
-    - name: "Metastable Failure"
-      link: "/papers/kaldor2017canopy.pdf"
+      link: "/papers/the_tail_at_scale.pdf"
+    - name: "Making Sense of Performance"
+      link: "/papers/nsdi15-paper-ousterhout.pdf"
 
 - title: "Performance Tracing"
   slides: "./"
   readings:
     - name: "The Mystery Machine"
       link: "/papers/osdi14-paper-chow.pdf"
-    - name: "Canopy"
-      link: "/papers/kaldor2017canopy.pdf"
+    - name: "Pivot Tracing"
+      link: "/papers/pivot-tracing.pdf"
 
 - title: "Cloud Failures"
   slides: "./"
@@ -192,10 +194,13 @@
     - name: "Large-scale Failure Study"
       link: "/papers/socc22-study.pdf"
 
-- title: "Runtime Checking"
+- title: "Failure Detection"
   slides: "./"
   readings:
-    - name: ""
+    - name: "KLEE"
+      link: "/papers/klee-osdi-2008.pdf"
+    - name: "LLVM(Optional)"
+      link: "/papers/CGO-LLVM.pdf"
 
 
 # - title: "Cloud Failures II"
@@ -212,11 +217,11 @@
     - name: "KV Cache"
       link: ""
 
-- title: "LLM Infrastructure II"
-  slides: "./"
-  readings:
-    - name: "vLLM"
-      link: ""
+# - title: "LLM Infrastructure II"
+#   slides: "./"
+#   readings:
+#     - name: "vLLM"
+#       link: ""
 
 - title: "Final Presentations I"
   slides:
