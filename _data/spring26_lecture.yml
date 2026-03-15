@@ -141,17 +141,17 @@
   - name: "DynamoDB"
     link: "/papers/atc22-DynamoDB.pdf"
 
-- title: "Milestone Demos II"
-  slides:
-  readings:
-
-
 - title: "Data Processing "
   slides: "./"
   readings:
     - name: "Kafka"
       link: "/papers/NetDB11_Kafka.pdf"
       readings:
+
+- title: "Milestone Demos II"
+  slides:
+  readings:
+
 
 - title: "Data Processing II"
   slides: "./"
