@@ -120,7 +120,7 @@
 #       link: ""
 
 - title: "Cloud Storage Systems"
-  slides: "./"
+  slides: "/slides/spring26/10-storage.pdf"
   readings:
     - name: "Ceph"
       link: "/papers/OSDI06_Ceph.pdf"
