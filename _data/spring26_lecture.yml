@@ -134,7 +134,7 @@
 #   readings:
 
 - title: "Cloud Data Systems"
-  slides: "./"
+  slides: "/slides/spring26/11-aurora.pdf"
   readings:
   - name: "Dynamo"
     link: "/papers/SOSP07_Dynamo.pdf"
