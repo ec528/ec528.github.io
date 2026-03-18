@@ -139,7 +139,7 @@
   - name: "Dynamo"
     link: "/papers/SOSP07_Dynamo.pdf"
   - name: "DynamoDB"
-    link: "/papers/atc22-DynamoDB.pdf"
+    link: "/papers/atc22-dynamodb.pdf"
 
 - title: "Data Processing "
   slides: "./"
