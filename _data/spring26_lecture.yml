@@ -142,7 +142,7 @@
     link: "/papers/atc22-dynamodb.pdf"
 
 - title: "Data Processing "
-  slides: "./"
+  slides: "/slides/spring26/12-kafka.pdf"
   readings:
     - name: "Kafka"
       link: "/papers/NetDB11_Kafka.pdf"
