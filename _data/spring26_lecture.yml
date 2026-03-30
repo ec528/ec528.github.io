@@ -154,7 +154,7 @@
 
 
 - title: "Data Processing II"
-  slides: "./"
+  slides: "/slides/spring26/13-spark.pdf"
   readings:
     - name: "Spark"
       link: "/papers/nsdi12-final138.pdf"
