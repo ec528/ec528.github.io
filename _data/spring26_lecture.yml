@@ -160,7 +160,7 @@
       link: "/papers/nsdi12-final138.pdf"
 
 - title: "Severless Computing"
-  slides: "./"
+  slides: "/slides/spring26/14-serverless.pdf"
   readings:
     - name: "Serverless Computing"
       link: "/papers/Berkeley_Serverless.pdf"
