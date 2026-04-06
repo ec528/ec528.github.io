@@ -168,7 +168,7 @@
 
 
 - title: "Performance Issue"
-  slides: "./"
+  slides: "/slides/spring26/15-performance.pdf"
   readings:
     - name: "The Tail at Scale"
       link: "/papers/the_tail_at_scale.pdf"
