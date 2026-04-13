@@ -181,7 +181,7 @@
 
 
 - title: "Performance Tracing"
-  slides: "./"
+  slides: "/slides/spring26/16-profiling.pdf"
   readings:
     - name: "The Mystery Machine"
       link: "/papers/osdi14-paper-chow.pdf"
