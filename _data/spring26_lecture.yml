@@ -189,12 +189,16 @@
       link: "/papers/pivot-tracing.pdf"
 
 - title: "Cloud Failures"
-  slides: "./"
+  slides: "/slides/spring26/17-failure.pdf"
   readings:
     - name: "Understanding Failures"
       link: "/papers/socc16-cos.pdf"
     - name: "Large-scale Failure Study"
       link: "/papers/socc22-study.pdf"
+
+- title: " Patriots’ Day Holiday"
+  slides:
+  readings:
 
 - title: "Failure Detection"
   slides: "./"
@@ -213,11 +217,11 @@
 #     - name: "AutoWatchdog"
 #       link: "/papers/nsdi20-paper-lou.pdf"
 
-- title: "LLM Infrastructure"
-  slides: "./"
-  readings:
-    - name: "KV Cache"
-      link: ""
+# - title: "LLM Infrastructure"
+#   slides: "./"
+#   readings:
+#     - name: "KV Cache"
+#       link: ""
 
 # - title: "LLM Infrastructure II"
 #   slides: "./"
