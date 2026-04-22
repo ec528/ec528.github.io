@@ -201,7 +201,7 @@
   readings:
 
 - title: "Failure Detection"
-  slides: "./"
+  slides: "/slides/spring26/18-reliability.pdf"
   readings:
     - name: "KLEE"
       link: "/papers/klee-osdi-2008.pdf"
