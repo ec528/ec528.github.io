@@ -1,0 +1,246 @@
+- title: "Course Introduction"
+  slides: "/slides/spring26/1-introduction.pdf"
+  readings:
+    - name: "How to Read a Paper"
+      link: "/papers/how_to_read.pdf"
+
+# - title: "Snow Day"
+#   note: "Class canceled due to snow day."
+
+- title: "The Rise of Cloud Computing"
+  slides: ""
+  readings:
+      - name: "Above the Clouds"
+        link: "/papers/EECS-2009-28.pdf"
+
+
+# - title: "Distributed System Foundation"
+#   slides: "/slides/spring26/3-distributed.pdf"
+#   readings:
+#     - name: "Above the Clouds"
+#       link: "/papers/EECS-2009-28.pdf"
+
+
+
+# - title: "Lab Day"
+#   slides:
+#   readings:
+
+- title: "Intro to Distributed Systems"
+  slides: ""
+  readings:
+    - name: "GFS"
+      link: "/papers/gfs.pdf"
+
+- title: "Data-parallel Computation"
+  slides: ""
+  readings:
+    - name: "MapReduce"
+      link: "/papers/mapreduce-osdi04.pdf"
+    - name: "Hive(Optional)"
+      link: "/papers/vldb09-938.pdf"
+
+
+
+
+
+# - title: "Fault Tolerance"
+#   slides: "./"
+#   readings:
+#     - name: "Raft"
+#       link: "/papers/atc14-paper-ongaro.pdf"
+
+- title: "Data Consistency"
+  slides: "/slides/spring26/6-consensus.pdf"
+  readings:
+    - name: "Raft"
+      link: "/papers/raft-extended.pdf"
+    - name: "Paxos(Optional)"
+      link: "/papers/paxos.pdf"  
+
+
+- title: "Data Consistency II"
+  slides: "/slides/spring26/6-consensus.pdf"
+  readings:
+    - name: "Raft"
+      link: "/papers/raft-extended.pdf"
+    - name: "Paxos(Optional)"
+      link: "/papers/paxos.pdf"  
+
+- title: "Lab Day"
+  slides:
+  readings:
+  
+- title: "Milestone Demo I"
+  slides:
+  readings:
+
+
+# - title: "Snow Day"
+#   note: "Class canceled due to snow day."
+
+
+
+
+
+# - title: "ZooKeeper"
+#   slides: "./"
+#   readings:
+#     - name: "ZooKeeper"
+#       link: "/papers/Hunt.pdf"
+
+# - title: "Big Data Frameworks"
+#   slides: "./"
+#   readings:
+#     - name: "Spark"
+#       link: "/papers/nsdi12-final138.pdf"
+
+- title: "Big Data Frameworks"
+  slides: ""
+  readings:
+    - name: "Spark"
+      link: "/papers/nsdi12-final138.pdf"
+
+- title: "Virtualization"
+  slides: "/slides/spring26/8-xen.pdf"
+  readings:
+    - name: "Xen"
+      link: "/papers/2003-xensosp.pdf"
+
+- title: "Datacenter Architectures"
+  slides: "./"
+  readings:
+    - name: "VL2"
+      link: "/papers/VL2.pdf"
+    - name: "Aquila"
+      link: "/papers/NSDI22_Aquila.pdf"
+
+- title: "Resource Management"
+  slides: "/slides/spring26/9-resource.pdf"
+  readings:
+    - name: "Mesos"
+      link: "/papers/NSDI11_Mesos.pdf"
+    - name: "Borg"
+      link: "/papers/EuroSys15_Borg.pdf"
+    
+- title: "Lab Day"
+  slides:
+  readings:
+
+- title: "Milestone Demos II"
+  slides:
+  readings:
+
+- title: "Cloud Storage Systems"
+  slides: "/slides/spring26/10-storage.pdf"
+  readings:
+    - name: "Ceph"
+      link: "/papers/OSDI06_Ceph.pdf"
+    - name: "Flat Datacenter Storage"
+      link: "/papers/OSDI12_FDS.pdf"
+
+- title: "Cloud Data Systems"
+  slides: "/slides/spring26/11-aurora.pdf"
+  readings:
+  - name: "Dynamo"
+    link: "/papers/SOSP07_Dynamo.pdf"
+  - name: "DynamoDB"
+    link: "/papers/atc22-dynamodb.pdf"
+
+- title: "Log Processing "
+  slides: "/slides/spring26/12-kafka.pdf"
+  readings:
+    - name: "Kafka"
+      link: "/papers/NetDB11_Kafka.pdf"
+      readings:
+
+- title: "Severless Computing"
+  slides: "/slides/spring26/14-severless.pdf"
+  readings:
+    - name: "Serverless Computing"
+      link: "/papers/Berkeley_Serverless.pdf"
+
+
+
+- title: "Performance Issue"
+  slides: "/slides/spring26/15-performance.pdf"
+  readings:
+    - name: "The Tail at Scale"
+      link: "/papers/the_tail_at_scale.pdf"
+    - name: "Making Sense of Performance"
+      link: "/papers/nsdi15-paper-ousterhout.pdf"
+
+- title: "Performance Tracing"
+  slides: "/slides/spring26/16-profiling.pdf"
+  readings:
+    - name: "The Mystery Machine"
+      link: "/papers/osdi14-paper-chow.pdf"
+    - name: "Pivot Tracing"
+      link: "/papers/pivot-tracing.pdf"
+
+- title: "Milestone Demos III"
+  slides:
+  readings:
+
+
+- title: "Cloud Failures"
+  slides: "/slides/spring26/17-failure.pdf"
+  readings:
+    - name: "Understanding Failures"
+      link: "/papers/socc16-cos.pdf"
+    - name: "Large-scale Failure Study"
+      link: "/papers/socc22-study.pdf"
+
+
+
+
+# - title: " Patriots’ Day Holiday"
+#   slides:
+#   readings:
+
+# - title: "Failure Detection"
+#   slides: "/slides/spring26/18-reliability.pdf"
+#   readings:
+#     - name: "KLEE"
+#       link: "/papers/klee-osdi-2008.pdf"
+#     - name: "LLVM(Optional)"
+#       link: "/papers/CGO-LLVM.pdf"
+
+
+# - title: "Cloud Failures II"
+#   slides: "./"
+#   readings:
+#     - name: "Gray Failure"
+#       link: "/papers/grey.pdf"
+#     - name: "AutoWatchdog"
+#       link: "/papers/nsdi20-paper-lou.pdf"
+
+- title: "LLM Infrastructure"
+  slides: "./"
+  readings:
+    - name: "KV Cache"
+      link: ""
+
+- title: "LLM Infrastructure II"
+  slides: "./"
+  readings:
+    - name: "vLLM"
+      link: ""
+
+- title: "Thanksgiving Holiday"
+
+- title: "Thanksgiving Holiday"
+
+- title: "Reliability and AIOps"
+  slides: "./"
+  readings:
+    - name: ""
+      link: ""
+
+- title: "Final Presentations I"
+  slides:
+  readings:
+
+- title: "Final Presentations II"
+  slides:
+  readings:

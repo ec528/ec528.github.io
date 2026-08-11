@@ -15,5 +15,6 @@ The course explores several fundamental topics of cloud computing, including Iaa
 
 - **EC 528: Cloud Computing**
   - [Spring 2026](/ec528/spring26/EC528.md)
+  - [Fall 2026](/ec528/fall26/EC528.md)
 
 

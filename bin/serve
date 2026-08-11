@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -eu
+
+RUBY_BIN="/opt/homebrew/opt/ruby/bin"
+
+if [ ! -x "$RUBY_BIN/ruby" ]; then
+  echo "Homebrew Ruby was not found at $RUBY_BIN/ruby." >&2
+  echo "Install it with 'brew install ruby', then try again." >&2
+  exit 1
+fi
+
+PATH="$RUBY_BIN:$PATH"
+export PATH
+
+echo "Using $(ruby --version)"
+exec bundle exec jekyll serve "$@"
