@@ -43,6 +43,10 @@ semester:
 {% assign lec_count = 0 %}
 
 {% for lec in lectures %}
+  {% comment %} A lecture may override the auto-generated date (e.g. substitute Monday schedule). {% endcomment %}
+  {% if lec.date %}
+    {% assign current = lec.date | date: "%s" | plus: 43200 %}
+  {% endif %}
   {% assign lec_date = current | date: "%m/%d %a" %}
   {% assign diff_secs = current | minus: start_monday %}
   {% assign week = diff_secs | divided_by: 604800 | plus: 1 %}
@@ -55,33 +59,39 @@ semester:
       <td><strong>No Class</strong></td>
       <td></td>
       <td></td>
-      <td></td>
       <td>{% if lec.note %}{{ lec.note }}{% endif %}</td>
     {% else %}
       <td>{{ lec.title }}</td>
       <td>
-        {% if lec.slides %}
+        {% comment %} Liquid treats "" as truthy, so check for blank explicitly. {% endcomment %}
+        {% if lec.slides != nil and lec.slides != "" %}
           <a href="{{ lec.slides }}">Slides</a>
         {% endif %}
       </td>
       <td>
         {% if lec.readings %}
           {% for r in lec.readings %}
-            <a href="{{ r.link }}">{{ r.name }}</a>{% unless forloop.last %}, {% endunless %}
+            {% if r.link != nil and r.link != "" %}
+              <a href="{{ r.link }}">{{ r.name }}</a>
+            {% else %}
+              {{ r.name }}
+            {% endif %}{% unless forloop.last %}, {% endunless %}
           {% endfor %}
         {% endif %}
       </td>
-      <td>{% if lec.note %}{{ lec.note }}{% endif %}</td>
+      <td>{% if lec.quiz %}<span class="quiz-tag">Quiz</span>{% if lec.note %}<br>{% endif %}{% endif %}{% if lec.note %}<span{% if lec.note_alert %} class="note-alert"{% endif %}>{{ lec.note }}</span>{% endif %}</td>
       {% assign lec_count = lec_count | plus: 1 %}
     {% endif %}
   </tr>
 
+  {% comment %} Advance to the next meeting: Mon -> Wed (+2d), Wed -> Mon (+5d).
+     Tue only occurs on a substitute Monday, whose next meeting is the Wed after (+1d). {% endcomment %}
   {% assign dow = current | date: "%a" %}
-  {% if dow == "Mon" %}
-    {% assign current = current | plus: 172800 %}
-  {% else %}
-    {% assign current = current | plus: 432000 %}
-  {% endif %}
+  {% case dow %}
+    {% when "Mon" %}{% assign current = current | plus: 172800 %}
+    {% when "Tue" %}{% assign current = current | plus: 86400 %}
+    {% else %}{% assign current = current | plus: 432000 %}
+  {% endcase %}
 {% endfor %}
 
   </tbody>

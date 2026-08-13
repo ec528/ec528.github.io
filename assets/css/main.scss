@@ -143,3 +143,15 @@ search: false
 .ec528-page .masthead  a.site-title,          /* <-- keep the title link  */
 .ec528-page .masthead  a[href*="/ec528/"],
 .ec528-page .masthead  a[href*="piazza.com"]  { display:inline-block !important; }
+/* ---------- ec528 schedule table ------------------------------------- */
+
+/* Project milestones stand out from the routine holiday notices. */
+.schedule-table .note-alert {
+  color: #c0392b;
+  font-weight: 600;
+}
+
+.schedule-table .quiz-tag {
+  white-space: nowrap;
+  font-weight: 600;
+}
