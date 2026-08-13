@@ -161,7 +161,7 @@ Note that a demo day has two different deadlines: your demo materials are due at
 
 ### Progress
 
-**Progress** is evaluated against the milestones your own team committed to in its project description, not against other teams. Projects come from different mentors and differ in scope, so teams are not compared to one another on progress.
+**Progress** is evaluated against the milestones your own team committed to in its design proposal, not against other teams. Projects come from different mentors and differ in scope, so teams are not compared to one another on progress.
 
 Progress must be **demonstrable**. We grade what runs and what is committed to your repository — not what a slide claims.
 

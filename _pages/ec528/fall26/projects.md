@@ -53,9 +53,9 @@ Every team member is expected to contribute technically. Two parts of your grade
 Once teams are announced on 09/09:
 
 1. **Meet your mentor.** Agree on a regular meeting time. Mentors are volunteers with day jobs, so schedule early and be reliable.
-2. **Create your team repository** on GitHub and give the instructor, TA, and your mentor access.
-3. **Scope the work and write your project description.** Decide what you are actually going to build and what milestones you commit to for each demo. This document is due in the repository at Demo 1 and is what your *progress* is graded against for the rest of the semester.
-4. **Get something running early.** Demo 1 expects a preliminary implementation, not just a plan.
+2. **Clone your team repository.** We create it for you in the course GitHub organization, from the course template. Push a trivial commit in the first week to confirm you have access.
+3. **Scope the work and write your design proposal.** Decide what you are actually going to build and what milestones you commit to for each demo. This document is due in the repository at Demo 1 and is what your *progress* is graded against for the rest of the semester.
+4. **Start building as soon as the design is settled.** Demo 1 is a proposal, but Demo 2 four weeks later expects a prototype that runs end to end.
 
 ## Version Control
 
@@ -69,7 +69,7 @@ Project work accounts for **70%** of your final grade: 50% for the team project,
 
 ## Submission
 
-Everything your team produces for this course lives in your team's **GitHub repository**: the project description, demo slides, design documents, demo videos, source code, and the final report. There is no separate submission system.
+Everything your team produces for this course lives in your team's **GitHub repository**: the design proposal, demo slides, design documents, demo videos, source code, and the final report. There is no separate submission system.
 
 Each deliverable is due at **12:00 noon on the day of the corresponding class**, in a branch named for that deliverable (`demo-1`, `demo-2`, `demo-3`, `final-demo`). We take an automatic snapshot of that branch at the deadline and grade exactly what is in it. See [Project Setup and Submission]({{ '/ec528/fall26/setup/' | relative_url }}) for the full mechanics.
 

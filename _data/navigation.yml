@@ -8,5 +8,7 @@ main:
     url: "/ec528/fall26/lectures"
   - title: "Projects"
     url: "/ec528/fall26/projects"
+  - title: "GitHub"
+    url: "https://github.com/ec528-fall26"
   - title: "Piazza"
     url: "https://piazza.com/class/msr7txgzab94pd"

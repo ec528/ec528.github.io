@@ -11,25 +11,25 @@ layout: single
 
 ## Setup
 
-Each team keeps **one GitHub repository**, and it is the single source of truth for the project. Set it up in the first week, right after teams are announced on 09/09:
+Each team has **one GitHub repository** for the whole semester, and it is the single source of truth for the project. It lives in the course GitHub organization, [`ec528-fall26`](https://github.com/ec528-fall26), and **we create it for you** from the course template once teams are announced on 09/09. You do not need to create a repository or share it with anyone.
 
-1. Create the repository on GitHub.
-2. Give the instructor, the TA, and your mentor access.
-3. Post the repository URL on Piazza so the teaching staff can find it.
+What you need to do:
 
-A suggested layout — the artifact documentation score rewards a repository someone else can pick up and run:
+1. **Have a GitHub account** before 09/09. Post your username on Piazza so we can add you to the organization.
+2. **Clone your repository and push a trivial commit in the first week.** Do not discover on the morning of Demo 1 that you never had push access.
+3. Your mentor is added to the repository along with the team.
+
+Your repository starts with this layout. Keep it — the artifact documentation score rewards a repository someone else can pick up and run:
 
 ```
 README.md          # what the project is, and how to run it
-docs/              # project description, design document
+docs/              # design proposal, design document
 slides/            # demo slides
 src/               # source code
 experiments/       # scripts that reproduce your results
 ```
 
 ## Submission
-
-We will be using **GitHub Classroom** to distribute and collect assignments. *(Classroom invitation link: TBA)*
 
 You do not have to do anything special to submit your project. There is no upload form and nothing to email. We use a snapshot of your GitHub repository as it exists at the deadline, and grade that version. You can still make changes to your repository after the deadline, but we will only use the snapshot of your code as of the deadline.
 
@@ -68,7 +68,7 @@ By the deadline, the submission branch must contain your **slides** and **all of
 
 | Deliverable | Also required in the branch |
 | --- | --- |
-| Demo 1 | Project description |
+| Demo 1 | Design proposal |
 | Demo 2 | Design document, demo video |
 | Demo 3 | Design document, demo video |
 | Final presentation | Artifact documentation, recorded video presentation |
