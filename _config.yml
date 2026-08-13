@@ -26,7 +26,7 @@ search: false
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -61,6 +61,7 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name   : "Yigong Hu"
