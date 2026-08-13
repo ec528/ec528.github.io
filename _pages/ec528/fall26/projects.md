@@ -22,10 +22,14 @@ The project runs on the following schedule:
 | 09/02 | Project list released; mentors introduced in class |
 | 09/06 | **Project preferences due** |
 | 09/09 | Teams announced; meet your mentor |
-| 09/30 | **Demo 1** — proposal and preliminary implementation; project description due |
-| 10/21 | **Demo 2** |
-| 11/16 | **Demo 3** |
+| 09/23 | **Demo 1** — design proposal |
+| 10/21 | **Demo 2** — working prototype |
+| 11/16 | **Demo 3** — optimized system |
 | 12/09 | **Final presentation** |
+
+**How matching works.** You do not pick your own team. The project list is posted before the first lecture, and the mentors are introduced in class on 09/02. Read through every project, then fill in the **project preference form**, ranking the projects in the order you would like to work on them. The form is due **09/06** and it is how you get placed — if you do not submit it, you are assigned to whichever project still has room. Teams are announced on 09/09, and you meet your mentor in class that evening.
+
+*Project preference form: link TBA*
 
 ## Project List
 
@@ -36,7 +40,7 @@ TBD
 | Document | Purpose |
 | --- | --- |
 | [Grading]({{ '/ec528/fall26/grading/' | relative_url }}) | Grading policy and the rubrics used for every deliverable |
-| Setup | TBA |
+| [Project Setup and Submission]({{ '/ec528/fall26/setup/' | relative_url }}) | Repository setup, submission branches, and deadlines |
 
 ## Groups
 
@@ -67,13 +71,11 @@ Project work accounts for **70%** of your final grade: 50% for the team project,
 
 Everything your team produces for this course lives in your team's **GitHub repository**: the project description, demo slides, design documents, demo videos, source code, and the final report. There is no separate submission system.
 
-For every deadline we grade **the version in the repository at the deadline**. Work sent by email, or shown only on a laptop during a demo, does not count.
+Each deliverable is due at **12:00 noon on the day of the corresponding class**, in a branch named for that deliverable (`demo-1`, `demo-2`, `demo-3`, `final-demo`). We take an automatic snapshot of that branch at the deadline and grade exactly what is in it. See [Project Setup and Submission]({{ '/ec528/fall26/setup/' | relative_url }}) for the full mechanics.
 
 ## Late Policies
 
-Late submissions are not accepted, and there are no late tokens. A deliverable that is not in the repository at the deadline receives no credit for that deadline.
-
-Deadlines are known from the first week of the semester, so plan around them. If something outside your control is going to prevent your team from meeting a deadline, contact the instructor **before** the deadline, not after.
+There are **no late hours, no late days, and no late tokens.** A deliverable that is not in the correct branch at 12:00 noon on the deadline receives no credit for that deadline.
 
 ## Cheating and Collaboration
 

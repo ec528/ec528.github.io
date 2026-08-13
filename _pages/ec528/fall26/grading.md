@@ -25,51 +25,139 @@ Most of this component is a team score: every member receives the same mark. The
 
 | Component | Weight |
 | --- | --- |
-| Three project demos | 25% |
-| Final project result and report | 20% |
-| Presentation quizzes | 5% |
+| [Demo 1](#demo-1) | 5% |
+| [Demo 2](#demo-2) | 10% |
+| [Demo 3](#demo-3) | 10% |
+| [Final project result and report](#final-project-result-and-report--20) | 20% |
+| [Presentation quizzes](#presentation-quizzes) | 5% |
 
-**Presentation quizzes** are short quizzes checking that you followed your classmates' demo presentations.
-
-#### Project demos: 25%
-
-The demo score is the team's technical score. Presentation delivery is *not* graded here — see *Presentation* below. The three demos are **not** weighted equally, and Demo 1 is graded on different criteria:
-
-| Demo | Weight | Criteria |
-| --- | --- | --- |
-| Demo 1 | 7% | progress 50%, slides 25%, project description 15%, challenge 10% |
-| Demo 2 | 9% | progress 50%, design doc including demo video 20%, code quality 10%, slides 10%, technical depth 10% |
-| Demo 3 | 9% | same as Demo 2 |
-
-Demo 1 asks you to propose an idea and show a preliminary implementation. Your **project description** is due in the repository at the Demo 1 deadline. **Challenge** measures how technically difficult the idea you proposed is — an ambitious proposal scores higher than a safe one.
-
-#### Final project result and report: 20%
-
-| Component | Weight | Graded as |
-| --- | --- | --- |
-| Final presentation | 30% | Individual |
-| Artifact: reproducibility | 50% | Team |
-| Artifact: documentation | 20% | Team |
-
-Each team splits its members into two groups: the **live group** gives a 20-minute talk in class, and the **video group** records a 20-minute video presentation. Both run 20 minutes, but the video is held to a higher standard — see the [final presentation rubric](#final-presentation).
-
-The final presentation score is **individual**: you are graded on the part you personally delivered. The *Presentation: 10%* component below covers the three milestone demos only.
+Every component is broken down in [Rubrics](#rubrics) below.
 
 ### Presentation: 10%
 
+At every milestone demo, each team gets **10 minutes to present and 5 minutes for questions**:
+
+| Session | Presentation | Q&A |
+| --- | --- | --- |
+| Demo 1, Demo 2, Demo 3 | 10 minutes | 5 minutes |
+| Final presentation | 20 minutes | — |
+
+Keep to the 10 minutes. Running over is cut off, and the [slides rubric](#slides) counts finishing on time. Be ready to answer questions about your own design during Q&A — fielding them is part of what is graded here.
+
 Graded per presenter on presentation quality, clarity, and engagement. Every team member must present at least once during the three demos; teams larger than three should split each demo among multiple presenters so that everyone presents. Your score is the average over the demos you personally presented.
+
+This component covers the three milestone demos only. The final presentation is graded separately, inside the final project score.
 
 ### Individual contribution: 10%
 
 This component replaces the peer-evaluation multiplier used in previous semesters. It is split evenly:
 
-* **5%: Peer evaluation.** Before the final project evaluation, each student anonymously assigns an *involvement score* to every teammate, reflecting that teammate's relative contribution to the team effort.
-  * Scores range from 50% to 150%, with a minimum increment of 1%.
-  * Your scores must average 100% across the teammates you rate. In a 5-person team you rate the other 4, so your scores must total 400%. For example, if you give A 80%, the remaining three must share 320% — e.g. 110% + 110% + 100%.
-  * Your peer points = 5 × min(your average involvement score, 100%) / 100%. A student who carries their share receives the full 5 points; only under-contribution costs points.
+* **5%: Peer evaluation.** Before the final project evaluation, each student anonymously rates **every teammate on a scale of 1 to 10**, where 10 means that teammate fully carried their share of the work and 1 means they contributed essentially nothing.
+  * Your peer score is the **average of the scores your teammates give you**.
+  * Your peer points = 5 × min(your average, 9) ÷ 9. An average of **9 or above earns the full 5 points**, so pulling your weight is enough — only genuine under-contribution costs points.
+  * Ratings are anonymous. Your teammates never see who gave which score.
 * **5%: Mentor evaluation.** Your mentor rates each team member on engagement, technical contribution, and reliability.
 
 ## Rubrics
+
+### Demo 1
+
+Demo 1 is a **design proposal**. You are not expected to have a working system yet — you are expected to have decided what you are going to build, why it is worth building, and how you will know whether it worked.
+
+| Criterion | Weight | What we look for |
+| --- | --- | --- |
+| Design proposal | 50% | A clear problem statement, the design you propose, and **verifiable milestones for Demo 2, Demo 3, and the final**. This document is what your progress is graded against for the rest of the semester, so vague milestones hurt you later. |
+| Slides | 25% | See the [slides rubric](#slides). |
+| Challenge | 25% | How technically difficult the design you proposed is. An ambitious proposal scores higher than a safe one. |
+
+Your design proposal is due in the repository at the Demo 1 deadline.
+
+### Demo 2
+
+Demo 2 requires a **working prototype**. It has to run end to end and do the thing you proposed. It does **not** have to be fast — performance is not graded at this demo.
+
+| Criterion | Weight | What we look for |
+| --- | --- | --- |
+| Progress | 50% | A prototype that runs end to end, meeting the milestones you committed to for this demo. See the [progress rubric](#progress). |
+| Design document | 20% | How to reproduce the results you claim: setup, the command to run each experiment, and what output to expect. **The TA will run it.** |
+| Code quality | 10% | Code someone else on the team can read, build, and extend. Structured, not a pile of one-off scripts. |
+| Slides | 10% | See the [slides rubric](#slides). |
+| Technical depth | 10% | Real systems work rather than plumbing. Wiring together existing services scores lower than solving a hard problem inside one. |
+
+### Demo 3
+
+Demo 3 is about **making the prototype good**. By this point the system works, so the question is how well: performance, scalability, and robustness against the baseline you established at Demo 2.
+
+| Criterion | Weight | What we look for |
+| --- | --- | --- |
+| Progress | 50% | Measured improvement over your Demo 2 baseline, meeting the milestones you committed to for this demo. See the [progress rubric](#progress). |
+| Design document | 20% | Updated to cover your optimization experiments: how to run each one and what output to expect. **The TA will run it.** |
+| Code quality | 10% | Code someone else on the team can read, build, and extend. Structured, not a pile of one-off scripts. |
+| Slides | 10% | See the [slides rubric](#slides). |
+| Technical depth | 10% | Real systems work rather than plumbing. Wiring together existing services scores lower than solving a hard problem inside one. |
+
+### Final project result and report — 20%
+
+| Component | Weight | Graded as |
+| --- | --- | --- |
+| [Final presentation](#final-presentation--30) | 30% | Individual |
+| [Artifact: reproducibility](#artifact-reproducibility--50) | 50% | Team |
+| [Artifact: documentation](#artifact-documentation--20) | 20% | Team |
+
+#### Final presentation — 30%
+
+Each team splits its members into two groups: the **live group** gives a 20-minute talk in class, and the **video group** records a 20-minute video presentation. This score is **individual** — you are graded on the part you personally delivered.
+
+The video is held to a **higher standard** than the live talk, because unlike a live talk it can be re-recorded and edited:
+
+| Requirement | What we expect from the video |
+| --- | --- |
+| Content density | Higher than the live talk. No dead air, no fumbling, no padding to reach 20 minutes. |
+| Narration | Audible and well paced. Script it rather than improvising. |
+| Animation | Use animation to explain your design and data flow, not static bullet slides. |
+| The system running | Include screen recording of your system actually running — terminal output, dashboards, plots being produced. Slides alone are not enough. |
+
+#### Artifact: reproducibility — 50%
+
+Graded the way a top-tier systems conference evaluates artifacts: **we will run your code.** We check whether the experimental claims made in your presentation and documentation actually reproduce.
+
+| Score | What it looks like |
+| --- | --- |
+| 10 | Every experimental claim reproduces on our machines, within the tolerance you state. |
+| 8–9 | The headline claims reproduce. Minor numbers differ, and your documentation already explains why. |
+| 6–7 | The code builds and runs, but some claimed results do not reproduce and this is not explained. |
+| 4–5 | The code builds and runs only on a toy input. The claimed experiments cannot be rerun. |
+| 1–3 | We cannot build or run the code from your repository. |
+
+A claim you do not make cannot cost you points here. Stating an honest, narrower result that reproduces scores better than an impressive result we cannot reproduce.
+
+#### Artifact: documentation — 20%
+
+The same standard an artifact evaluation committee applies. Each criterion is worth 25%:
+
+| Criterion | What we look for |
+| --- | --- |
+| Setup | Exact dependencies, versions, and hardware assumptions. Someone starting from a clean machine can follow it. |
+| How to run | A documented command or script for each experiment, with the expected runtime. |
+| Expected results | Each experiment states what output to expect and which claim, figure, or table it supports. |
+| Claims and limitations | Which claims your artifact supports, plus an honest account of what does not work or was not tested. |
+
+### Presentation quizzes
+
+After every demo session, once all teams have presented, the class answers a short quiz made up of questions written by the presenting teams. It checks that you followed your classmates' work rather than only your own.
+
+**Writing the questions is mandatory.** Each team must email the instructor **two multiple-choice questions** about its own presentation by **5:30 pm on the day of the demo**, one hour before class starts.
+
+| Rule | Detail |
+| --- | --- |
+| What to submit | Exactly two questions about your own presentation, **each with the correct answer marked**. |
+| Format | **Multiple choice only.** Short-answer and open-ended questions are not accepted. |
+| How | Email to the instructor. |
+| Confidentiality | Send the questions and answers to the instructor **only**. Do not share them with anyone outside your team before the quiz. |
+| When | **5:30 pm** on the day of the demo. |
+| If you are late | The **whole team** receives **zero** on the presentation quiz for that session. |
+
+Note that a demo day has two different deadlines: your demo materials are due at **12:00 noon** in the submission branch, and your two quiz questions are due by email at **5:30 pm**.
 
 ### Progress
 
@@ -102,39 +190,3 @@ Each criterion is worth 20% of the slides score.
 | What changed | Work that is new since the previous demo (since the proposal, for Demo 1) is explicitly identified. |
 | Evidence | Claims are backed by results: measured numbers, labeled axes, and a baseline to compare against. |
 | Clarity | Legible text, no walls of text, self-contained figures, and you finish within the allotted time. |
-
-### Final presentation
-
-The video is held to a **higher standard** than the live talk, because unlike a live talk it can be re-recorded and edited:
-
-| Requirement | What we expect from the video |
-| --- | --- |
-| Content density | Higher than the live talk. No dead air, no fumbling, no padding to reach 20 minutes. |
-| Narration | Audible and well paced. Script it rather than improvising. |
-| Animation | Use animation to explain your design and data flow, not static bullet slides. |
-| The system running | Include screen recording of your system actually running — terminal output, dashboards, plots being produced. Slides alone are not enough. |
-
-### Artifact: reproducibility
-
-Graded the way a top-tier systems conference evaluates artifacts: **we will run your code.** We check whether the experimental claims made in your presentation and documentation actually reproduce.
-
-| Score | What it looks like |
-| --- | --- |
-| 10 | Every experimental claim reproduces on our machines, within the tolerance you state. |
-| 8–9 | The headline claims reproduce. Minor numbers differ, and your documentation already explains why. |
-| 6–7 | The code builds and runs, but some claimed results do not reproduce and this is not explained. |
-| 4–5 | The code builds and runs only on a toy input. The claimed experiments cannot be rerun. |
-| 1–3 | We cannot build or run the code from your repository. |
-
-A claim you do not make cannot cost you points here. Stating an honest, narrower result that reproduces scores better than an impressive result we cannot reproduce.
-
-### Artifact: documentation
-
-The same standard an artifact evaluation committee applies. Each criterion is worth 25%:
-
-| Criterion | What we look for |
-| --- | --- |
-| Setup | Exact dependencies, versions, and hardware assumptions. Someone starting from a clean machine can follow it. |
-| How to run | A documented command or script for each experiment, with the expected runtime. |
-| Expected results | Each experiment states what output to expect and which claim, figure, or table it supports. |
-| Claims and limitations | Which claims your artifact supports, plus an honest account of what does not work or was not tested. |
