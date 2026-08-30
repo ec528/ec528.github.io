@@ -37,7 +37,7 @@ Each project is proposed and mentored by an engineer or researcher from industry
 or a national lab. Read the full proposal before ranking your preferences — each
 one lists the technical background it expects.
 
-* [Build-Bench Challenge: Autonomous LLM Agents for Cross-Architecture Package Repair](../../projects/EC528-fall26-build-bench.docx) ([Markdown](../../projects/EC528-fall26-build-bench.md)) \
+* [Build-Bench Challenge: Autonomous LLM Agents for Cross-Architecture Package Repair](../../projects/EC528-fall26-build-bench.docx) ([Markdown](/_pages/projects/EC528-fall26-build-bench.md)) \
   *Mentor: Minghua Ma, Microsoft.* \
   Build an autonomous LLM agent that repairs software packages whose builds fail when migrated across x86_64, ARM, and RISC-V. The team submits a qualified agent to the ICSE 2027 Build-Bench Challenge. \
   Expects: Python, Linux/Git/Docker, and at least one member with LLM agent frameworks and one with build systems (CMake, Make, Autotools, Debian, RPM).
