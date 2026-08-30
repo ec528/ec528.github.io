@@ -33,7 +33,21 @@ The project runs on the following schedule:
 
 ## Project List
 
-TBD
+Each project is proposed and mentored by an engineer or researcher from industry
+or a national lab. Read the full proposal before ranking your preferences — each
+one lists the technical background it expects.
+
+* [Build-Bench Challenge: Autonomous LLM Agents for Cross-Architecture Package Repair](../../projects/EC528-fall26-build-bench.docx) \
+  *Mentor: Minghua Ma, Microsoft.* Build an autonomous LLM agent that repairs software packages whose builds fail when migrated across x86_64, ARM, and RISC-V. The team submits a qualified agent to the ICSE 2027 Build-Bench Challenge. \
+  Expects: Python, Linux/Git/Docker, and at least one member with LLM agent frameworks and one with build systems (CMake, Make, Autotools, Debian, RPM).
+
+* [Load Modeling and Load Balancing Simulation Platform](../../projects/EC528-fall26-load-balancing.docx) \
+  *Mentor: Shripad Nadgowda, Meta.* Build a platform that models steady-state request routing across a large fleet and answers "what-if" questions — what happens to utilization if request load grows, or if the balancing policy changes from round-robin to least-connection. \
+  Expects: Python, C, or Go, and at least one member comfortable with containers/microservices, KV stores such as Redis, and SQL databases such as Postgres.
+
+* [Zero Trust Cryptographic Confinement for AI Agents](../../projects/EC528-fall26-zero-trust.pdf) \
+  *Mentor: Charles Munson, MIT Lincoln Laboratory.* Build an end-to-end pipeline where an AI agent's request to execute a workload is paused, cryptographically approved by a multi-signature quorum, and only then deployed onto a remotely attested VM on the Mass Open Cloud. \
+  Expects: at least one member with Python, Go, or Rust and one with a basic understanding of PKI and digital signatures. Experience with VMs, the MOC, or Keylime is valuable.
 
 ## Important Documentation
 
