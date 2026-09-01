@@ -11,7 +11,7 @@
 # schedule, Thanksgiving recess 11/25-11/29, last day of classes 12/10.
 
 - title: "Course Introduction"                    # 09/02 Wed
-  slides: "/slides/spring26/1-introduction.pdf"
+  slides: "/slides/fall26/1-introduction.pdf"
   note: "Projects released. Project preferences due Sun 09/06."
   note_alert: true
   readings:
