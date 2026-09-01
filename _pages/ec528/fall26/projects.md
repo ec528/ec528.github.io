@@ -52,6 +52,11 @@ one lists the technical background it expects.
   Build an end-to-end pipeline where an AI agent's request to execute a workload is paused, cryptographically approved by a multi-signature quorum, and only then deployed onto a remotely attested VM on the Mass Open Cloud. \
   Expects: at least one member with Python, Go, or Rust and one with a basic understanding of PKI and digital signatures. Experience with VMs, the MOC, or Keylime is valuable.
 
+* [Computational Storage](../../projects/EC528-fall26-computational-storage.pdf) \
+  *Mentors: Alex Merenstein, Vasily Tarasov, and Anthony Hsu, IBM.* \
+  Layer a compute tier on top of an existing storage system so data is processed where it lives, rather than copied out and back. The team builds a serverless-style interface for arbitrary file operations plus a background format-conversion service, and measures both against a copy-process-copy-back baseline. \
+  Expects: Linux command line for everyone, and at least one member with Python. Familiarity with containers or serverless is valuable; you will work with Kubernetes, Ceph, and Parquet.
+
 ## Important Documentation
 
 | Document | Purpose |
