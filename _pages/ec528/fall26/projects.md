@@ -29,7 +29,7 @@ The project runs on the following schedule:
 
 **How matching works.** You do not pick your own team. The project list is posted before the first lecture, and the mentors are introduced in class on 09/02. Read through every project, then fill in the **project preference form**, ranking the projects in the order you would like to work on them. The form is due **09/06** and it is how you get placed — if you do not submit it, you are assigned to whichever project still has room. **There are seven projects listed and we will run six of them.** The project that attracts the least interest will not run this semester, so rank honestly rather than strategically. Teams are announced on 09/09, and you meet your mentor in class that evening.
 
-*Project preference form: link TBA*
+**[Fill in the project preference form](https://docs.google.com/forms/d/e/1FAIpQLSfepkv3so3zg6u7-purxYJCKmk1894XAkZ090uLLT-ub9PTHJw/viewform)** — due 11:59 PM on Sunday, 09/06.
 
 ## Project List
 
