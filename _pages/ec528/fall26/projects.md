@@ -27,7 +27,7 @@ The project runs on the following schedule:
 | 11/16 | **Demo 3** — optimized system |
 | 12/09 | **Final presentation** |
 
-**How matching works.** You do not pick your own team. The project list is posted before the first lecture, and the mentors are introduced in class on 09/02. Read through every project, then fill in the **project preference form**, ranking the projects in the order you would like to work on them. The form is due **09/06** and it is how you get placed — if you do not submit it, you are assigned to whichever project still has room. Teams are announced on 09/09, and you meet your mentor in class that evening.
+**How matching works.** You do not pick your own team. The project list is posted before the first lecture, and the mentors are introduced in class on 09/02. Read through every project, then fill in the **project preference form**, ranking the projects in the order you would like to work on them. The form is due **09/06** and it is how you get placed — if you do not submit it, you are assigned to whichever project still has room. **There are seven projects listed and we will run six of them.** The project that attracts the least interest will not run this semester, so rank honestly rather than strategically. Teams are announced on 09/09, and you meet your mentor in class that evening.
 
 *Project preference form: link TBA*
 
@@ -56,6 +56,21 @@ one lists the technical background it expects.
   *Mentors: Alex Merenstein, Vasily Tarasov, and Anthony Hsu, IBM.* \
   Layer a compute tier on top of an existing storage system so data is processed where it lives, rather than copied out and back. The team builds a serverless-style interface for arbitrary file operations plus a background format-conversion service, and measures both against a copy-process-copy-back baseline. \
   Expects: Linux command line for everyone, and at least one member with Python. Familiarity with containers or serverless is valuable; you will work with Kubernetes, Ceph, and Parquet.
+
+* [Highly Available Object Storage Development](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
+  *Mentor: Andressa Cabistani, Red Hat — OpenStack Swift.* \
+  Swift is a highly available, distributed, eventually consistent object store that lets organisations keep large amounts of data safely and cheaply. Work on the storage layer itself. \
+  Expects: Python. *Scope and milestones are still being finalised with the mentor.*
+
+* [magnum-ui Functional Testing](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
+  *Mentor: Michal Nasiadka — OpenStack Magnum.* \
+  magnum-ui currently has no functional test coverage. Build a test suite that exercises it end to end using devstack together with Selenium or Playwright. \
+  Expects: Python. *Scope and milestones are still being finalised with the mentor.*
+
+* [Keystone-NG: OpenStack Identity and Access Management in Rust](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
+  *Mentor: Artem Goncharov — OpenStack Keystone.* \
+  Modernise OpenStack's IAM with OIDC, password-less login and SCIM, written in Rust. The goal is to bring features that are hard to implement in Python to the community and show what Rust buys them. \
+  Expects: Rust (required for at least one member) and a working understanding of authentication and authorisation. Python and an interest in software security are valuable. *Scope and milestones are still being finalised with the mentor.*
 
 ## Important Documentation
 
