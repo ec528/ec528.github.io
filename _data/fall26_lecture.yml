@@ -29,14 +29,7 @@
     - name: "Above the Clouds"
       link: "/papers/EECS-2009-28.pdf"
 
-- title: "Intro to Distributed Systems"           # 09/14 Mon
-  slides: "/slides/spring26/4-gfs.pdf"
-  quiz: true
-  readings:
-    - name: "GFS"
-      link: "/papers/gfs.pdf"
-
-- title: "Data-parallel Computation"              # 09/16 Wed
+- title: "Data-parallel Computation"              # 09/14 Mon
   slides: "/slides/spring26/5-mapreduce.pdf"
   quiz: true
   readings:
@@ -44,6 +37,13 @@
       link: "/papers/mapreduce-osdi04.pdf"
     - name: "Hive(Optional)"
       link: "/papers/vldb09-938.pdf"
+
+- title: "Case Study: Google File System"         # 09/16 Wed
+  slides: "/slides/spring26/4-gfs.pdf"
+  quiz: true
+  readings:
+    - name: "GFS"
+      link: "/papers/gfs.pdf"
 
 - title: "Lab Day"                                # 09/21 Mon
   slides:
