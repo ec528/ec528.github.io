@@ -44,7 +44,7 @@ At every milestone demo, each team gets **10 minutes to present and 5 minutes fo
 
 Keep to the 10 minutes. Running over is cut off, and the [slides rubric](#slides) counts finishing on time. Be ready to answer questions about your own design during Q&A — fielding them is part of what is graded here.
 
-Graded per presenter on presentation quality, clarity, and engagement. **At most two team members may present in a single demo**, and every team member must present at least once across the three demos — three demos with two presenters each covers a team of up to six. Your score is the average over the demos you personally presented.
+Graded per presenter on presentation quality, clarity, and engagement. **At most two team members may present in a single demo**, and every team member must present at least once across the three demos — three demos with two presenters each covers a team of up to six, so a 4-5 person team has room to spare. Your score is the average over the demos you personally presented.
 
 This component covers the three milestone demos only. The final presentation is graded separately, inside the final project score.
 

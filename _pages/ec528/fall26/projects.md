@@ -81,7 +81,7 @@ one lists the technical background it expects.
 
 ## Groups
 
-Projects are done in teams of **4-6 students**. You do not pick your own team: you submit a ranked list of project preferences by **09/06**, and teams are assigned based on those preferences and announced on **09/09**.
+Projects are done in teams of **4-5 students**. You do not pick your own team: you submit a ranked list of project preferences by **09/06**, and teams are assigned based on those preferences and announced on **09/09**.
 
 Every team member is expected to contribute technically. Two parts of your grade are individual rather than team-wide — the *Presentation* component and the *Individual contribution* component — so a team cannot carry a member who does not participate, and a strong contributor is not dragged down by a weak team.
 
