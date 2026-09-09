@@ -27,50 +27,62 @@ The project runs on the following schedule:
 | 11/16 | **Demo 3** — optimized system |
 | 12/09 | **Final presentation** |
 
-**How matching works.** You do not pick your own team. The project list is posted before the first lecture, and the mentors are introduced in class on 09/02. Read through every project, then fill in the **project preference form**, ranking the projects in the order you would like to work on them. The form is due **09/06** and it is how you get placed — if you do not submit it, you are assigned to whichever project still has room. **There are seven projects listed and we will run six of them.** The project that attracts the least interest will not run this semester, so rank honestly rather than strategically. Teams are announced on 09/09, and you meet your mentor in class that evening.
+**Teams have been assigned.** Six of the seven projects listed below are running; **Keystone-NG (OpenStack IAM in Rust)** attracted the least interest across the class and is not running this semester. Everyone who submitted the preference form got their first or second choice. Your team, your mentor, and your repository are in the **pinned Piazza post**.
 
-**[Fill in the project preference form](https://forms.gle/4N7xRd3yQGJ7U2tU7)** — due 11:59 PM on Sunday, 09/06.
+**How matching worked.** You did not pick your own team. The project list went up before the first lecture, mentors were introduced in class on 09/02, and you ranked every project on the preference form due 09/06. Teams were assigned from those rankings and announced on 09/09.
 
 ## Project List
 
 Each project is proposed and mentored by an engineer or researcher from industry
-or a national lab. Read the full proposal before ranking your preferences — each
-one lists the technical background it expects.
+or a national lab. These six are running this semester; the full proposal for
+each one is linked from its title, and the repository is public, so you can read
+any team's work.
 
 * [Build-Bench Challenge: Autonomous LLM Agents for Cross-Architecture Package Repair](../../projects/EC528-fall26-build-bench.pdf) ([Markdown](/_pages/projects/EC528-fall26-build-bench.md)) \
   *Mentor: Minghua Ma, Microsoft.* \
+  Repository: [`ec528-fall26/build-bench`](https://github.com/ec528-fall26/build-bench) \
   Build an autonomous LLM agent that repairs software packages whose builds fail when migrated across x86_64, ARM, and RISC-V. The team submits a qualified agent to the ICSE 2027 Build-Bench Challenge. \
   Expects: Python, Linux/Git/Docker, and at least one member with LLM agent frameworks and one with build systems (CMake, Make, Autotools, Debian, RPM).
 
 * [Load Modeling and Load Balancing Simulation Platform](../../projects/EC528-fall26-load-balancing.pdf) \
   *Mentor: Shripad Nadgowda, Meta.* \
+  Repository: [`ec528-fall26/load-balancing`](https://github.com/ec528-fall26/load-balancing) \
   Build a platform that models steady-state request routing across a large fleet and answers "what-if" questions — what happens to utilization if request load grows, or if the balancing policy changes from round-robin to least-connection. \
   Expects: Python, C, or Go, and at least one member comfortable with containers/microservices, KV stores such as Redis, and SQL databases such as Postgres.
 
 * [Zero Trust Cryptographic Confinement for AI Agents](../../projects/EC528-fall26-zero-trust.pdf) \
   *Mentor: Charles Munson, MIT Lincoln Laboratory.* \
+  Repository: [`ec528-fall26/zero-trust`](https://github.com/ec528-fall26/zero-trust) \
   Build an end-to-end pipeline where an AI agent's request to execute a workload is paused, cryptographically approved by a multi-signature quorum, and only then deployed onto a remotely attested VM on the Mass Open Cloud. \
   Expects: at least one member with Python, Go, or Rust and one with a basic understanding of PKI and digital signatures. Experience with VMs, the MOC, or Keylime is valuable.
 
 * [Computational Storage](../../projects/EC528-fall26-computational-storage.pdf) \
   *Mentors: Alex Merenstein, Vasily Tarasov, and Anthony Hsu, IBM.* \
+  Repository: [`ec528-fall26/comp-storage`](https://github.com/ec528-fall26/comp-storage) \
   Layer a compute tier on top of an existing storage system so data is processed where it lives, rather than copied out and back. The team builds a serverless-style interface for arbitrary file operations plus a background format-conversion service, and measures both against a copy-process-copy-back baseline. \
   Expects: Linux command line for everyone, and at least one member with Python. Familiarity with containers or serverless is valuable; you will work with Kubernetes, Ceph, and Parquet.
 
 * [Highly Available Object Storage Development](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
   *Mentor: Andressa Cabistani, Red Hat — OpenStack Swift.* \
+  Repository: [`ec528-fall26/swift`](https://github.com/ec528-fall26/swift) \
   Swift is a highly available, distributed, eventually consistent object store that lets organisations keep large amounts of data safely and cheaply. Work on the storage layer itself. \
   Expects: Python. *Scope and milestones are still being finalised with the mentor.*
 
 * [magnum-ui Functional Testing](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
   *Mentor: Michal Nasiadka — OpenStack Magnum.* \
+  Repository: [`ec528-fall26/magnum-ui`](https://github.com/ec528-fall26/magnum-ui) \
   magnum-ui currently has no functional test coverage. Build a test suite that exercises it end to end using devstack together with Selenium or Playwright. \
   Expects: Python. *Scope and milestones are still being finalised with the mentor.*
+
+### Not running this semester
+
+Seven projects were offered and six run. This one drew the least interest in the
+preference form and was dropped, with thanks to the mentor for proposing it.
 
 * [Keystone-NG: OpenStack Identity and Access Management in Rust](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
   *Mentor: Artem Goncharov — OpenStack Keystone.* \
   Modernise OpenStack's IAM with OIDC, password-less login and SCIM, written in Rust. The goal is to bring features that are hard to implement in Python to the community and show what Rust buys them. \
-  Expects: Rust (required for at least one member) and a working understanding of authentication and authorisation. Python and an interest in software security are valuable. *Scope and milestones are still being finalised with the mentor.*
+  Expects: Rust (required for at least one member) and a working understanding of authentication and authorisation.
 
 ## Important Documentation
 
@@ -81,18 +93,19 @@ one lists the technical background it expects.
 
 ## Groups
 
-Projects are done in teams of **4-5 students**. You do not pick your own team: you submit a ranked list of project preferences by **09/06**, and teams are assigned based on those preferences and announced on **09/09**.
+Projects are done in teams of **4-5 students**. You did not pick your own team: teams were assigned from the ranked preferences submitted by **09/06** and announced on **09/09**. There are six teams this semester.
 
 Every team member is expected to contribute technically. Two parts of your grade are individual rather than team-wide — the *Presentation* component and the *Individual contribution* component — so a team cannot carry a member who does not participate, and a strong contributor is not dragged down by a weak team.
 
 ## Getting Started
 
-Once teams are announced on 09/09:
+Now that teams are announced:
 
-1. **Meet your mentor.** Agree on a regular meeting time. Mentors are volunteers with day jobs, so schedule early and be reliable.
-2. **Clone your team repository.** We create it for you in the course GitHub organization, from the course template. Push a trivial commit in the first week to confirm you have access.
-3. **Scope the work and write your design proposal.** Decide what you are actually going to build and what milestones you commit to for each demo. This document is due in the repository at Demo 1 and is what your *progress* is graded against for the rest of the semester.
-4. **Start building as soon as the design is settled.** Demo 1 is a proposal, but Demo 2 four weeks later expects a prototype that runs end to end.
+1. **Send us your GitHub username.** Use the form linked from the pinned Piazza post, by **Friday 09/11**. We need it to give you push access; until then you can read your repository but not push to it.
+2. **Meet your mentor.** Agree on a regular meeting time. Mentors are volunteers with day jobs, so schedule early and be reliable.
+3. **Clone your team repository.** It is already created for you in the course GitHub organization, from the course template. Push a trivial commit in the first week to confirm you have access.
+4. **Scope the work and write your design proposal.** Decide what you are actually going to build and what milestones you commit to for each demo. This document is due in the repository at Demo 1 and is what your *progress* is graded against for the rest of the semester.
+5. **Start building as soon as the design is settled.** Demo 1 is a proposal, but Demo 2 four weeks later expects a prototype that runs end to end.
 
 ## Version Control
 

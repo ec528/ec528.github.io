@@ -11,7 +11,9 @@ layout: single
 
 ## Setup
 
-Each team has **one GitHub repository** for the whole semester, and it is the single source of truth for the project. It lives in the course GitHub organization, [`ec528-fall26`](https://github.com/ec528-fall26), and **we create it for you** from the course template once teams are announced on 09/09. You do not need to create a repository or share it with anyone.
+Each team has **one GitHub repository** for the whole semester, and it is the single source of truth for the project. It lives in the course GitHub organization, [`ec528-fall26`](https://github.com/ec528-fall26), and **we have already created it for you** from the course template. You do not need to create a repository or share it with anyone.
+
+To be given push access, send us your GitHub username using the form linked from the pinned Piazza post, by **Friday 09/11**. The repositories are public, so you can read yours before then, but you cannot push to it until we have added you.
 
 What you need to do:
 
