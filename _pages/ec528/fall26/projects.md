@@ -27,7 +27,7 @@ The project runs on the following schedule:
 | 11/16 | **Demo 3** — optimized system |
 | 12/09 | **Final presentation** |
 
-**Teams have been assigned.** Six of the seven projects listed below are running; **Keystone-NG (OpenStack IAM in Rust)** attracted the least interest across the class and is not running this semester. Everyone who submitted the preference form got their first or second choice. Your team, your mentor, and your repository are in the **pinned Piazza post**.
+**Teams have been assigned.** Six of the seven projects listed below are running. **magnum-ui functional testing** is not running this semester: it drew little interest in the preference form, and the team originally assigned to it asked to move to Keystone-NG instead. Everyone who submitted the preference form got their first or second choice. Your team, your mentor, and your repository are in the **pinned Piazza post**.
 
 **How matching worked.** You did not pick your own team. The project list went up before the first lecture, mentors were introduced in class on 09/02, and you ranked every project on the preference form due 09/06. Teams were assigned from those rankings and announced on 09/09.
 
@@ -68,21 +68,21 @@ any team's work.
   Swift is a highly available, distributed, eventually consistent object store that lets organisations keep large amounts of data safely and cheaply. Work on the storage layer itself. \
   Expects: Python. *Scope and milestones are still being finalised with the mentor.*
 
-* [magnum-ui Functional Testing](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
-  *Mentor: Michal Nasiadka — OpenStack Magnum.* \
-  Repository: [`ec528-fall26/magnum-ui`](https://github.com/ec528-fall26/magnum-ui) \
-  magnum-ui currently has no functional test coverage. Build a test suite that exercises it end to end using devstack together with Selenium or Playwright. \
-  Expects: Python. *Scope and milestones are still being finalised with the mentor.*
+* [Keystone-NG: OpenStack Identity and Access Management in Rust](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
+  *Mentor: Artem Goncharov — OpenStack Keystone.* \
+  Repository: [`ec528-fall26/keystone-ng`](https://github.com/ec528-fall26/keystone-ng) \
+  Modernise OpenStack's IAM with OIDC, password-less login and SCIM, written in Rust. The goal is to bring features that are hard to implement in Python to the community and show what Rust buys them. \
+  Expects: Rust (required for at least one member) and a working understanding of authentication and authorisation.
 
 ### Not running this semester
 
-Seven projects were offered and six run. This one drew the least interest in the
-preference form and was dropped, with thanks to the mentor for proposing it.
+Seven projects were offered and six run. This one is not going ahead, with
+thanks to the mentor for proposing it.
 
-* [Keystone-NG: OpenStack Identity and Access Management in Rust](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
-  *Mentor: Artem Goncharov — OpenStack Keystone.* \
-  Modernise OpenStack's IAM with OIDC, password-less login and SCIM, written in Rust. The goal is to bring features that are hard to implement in Python to the community and show what Rust buys them. \
-  Expects: Rust (required for at least one member) and a working understanding of authentication and authorisation.
+* [magnum-ui Functional Testing](https://etherpad.opendev.org/p/UPP-Projects%26Mentors) \
+  *Mentor: Michal Nasiadka — OpenStack Magnum.* \
+  magnum-ui currently has no functional test coverage. Build a test suite that exercises it end to end using devstack together with Selenium or Playwright. \
+  Expects: Python.
 
 ## Important Documentation
 
