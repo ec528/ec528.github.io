@@ -17,7 +17,7 @@ To be given push access, send us your GitHub username using the form linked from
 
 What you need to do:
 
-1. **Have a GitHub account** before 09/09. Post your username on Piazza so we can add you to the organization.
+1. **Have a GitHub account**, and submit your username with the form linked from the pinned Piazza post so we can add you to the organization.
 2. **Clone your repository and push a trivial commit in the first week.** Do not discover on the morning of Demo 1 that you never had push access.
 3. Your mentor is added to the repository along with the team.
 
@@ -31,65 +31,62 @@ src/               # source code
 experiments/       # scripts that reproduce your results
 ```
 
-## AWS credits
+## Set up AWS credits
 
 Amazon has given the course **AWS promotional credits**, and each team gets a
 share. The amount differs by team, because the projects need very different
-amounts of compute — a team running on the Mass Open Cloud does not need the
-same budget as one simulating a fleet on EC2. Your codes are emailed to your
-team directly. **They are never posted here or on Piazza**: anyone who has the
-string can redeem it, so treat them like cash.
+amounts of compute. Your codes are emailed to your team directly. **They are
+never posted here or on Piazza**: anyone who has the string can redeem it, so
+treat them like cash.
 
-### Use one AWS account for the whole team
+### Setup instructions
 
-Create **one** AWS account and redeem all of your team's codes into it. Split
-across four or five personal accounts the money is too thin to be useful, and
-you cannot share resources. Decide together who owns the account, and give
-everyone else an IAM user — do not share the root login.
+1. **Create an AWS account** for the team, and **add a valid credit card** to
+   it. AWS will not accept a promotional code on an account with no payment
+   method, so this is the step that usually blocks people.
+2. **Redeem every code** your team was sent into that one account, at the
+   [AWS promotional credit page](https://aws.amazon.com/awscredits/) or in the
+   Billing and Cost Management console under *Credits*.
+3. **Do it early.** Credit only applies to usage from the point it lands on the
+   account; AWS will not retroactively cover charges from before you redeemed.
+4. **Set a [billing alarm](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html)
+   the same day**, with thresholds well below your total.
 
-Redeeming requires **a valid credit card on the account**. AWS will not accept a
-promotional code on an account with no payment method, so this is the step that
-usually blocks people. Redeem at the
-[AWS promotional credit page](https://aws.amazon.com/awscredits/), or in the
-Billing and Cost Management console under *Credits*.
+### Recommendations
 
-**Redeem early.** Credit only applies to usage from the point it lands on the
-account, and AWS will not retroactively cover charges from before you redeemed.
-The credits themselves expire on **28 February 2027**.
+* **Use one AWS account for the whole team.** Split across four or five personal
+  accounts the money is too thin to be useful, and you cannot share resources.
+* **Decide together who owns the account**, and give everyone else an IAM user.
+  Do not share the root login, and enable MFA on the root account.
+* **Stop instances you are not using.** Note that EBS volumes keep billing even
+  while the instance attached to them is stopped.
+* **Keep credentials out of the repository**, in environment variables or a
+  local `~/.aws/credentials` file, and add anything credential-shaped to
+  `.gitignore`. Prefer IAM roles over long-lived access keys.
 
-### Set a billing alarm on day one
+### Notices
 
-This is the part that costs students real money every year. When the credit runs
-out, **AWS charges the card on file and does not refund overruns** — and neither
-the course nor Amazon will cover them. An instance someone forgets to stop over a
-weekend is enough to do it.
+**Never commit AWS keys.** Your repository is public. Automated scanners find
+leaked access keys within minutes of a push and use them to mine cryptocurrency
+at your expense — this is one of the most common ways student projects run up
+four-figure bills. If you do leak a key, deactivate it in the IAM console
+immediately and tell the course staff. Deleting the commit does not help: the
+key is already in your history and already scraped.
 
-Set up a [billing alarm](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html)
-the same day you redeem, with thresholds well below your total, and stop
-instances you are not using.
+**Overruns are yours.** When the credit runs out, AWS charges the card on file
+and does not refund overruns, and neither the course nor Amazon will cover them.
+An instance someone forgets to stop over a weekend is enough to do it.
 
-Some services **cannot** be paid for with promotional credit, and you will be
+**Some services cannot be paid for with promotional credit**, and you will be
 billed for them normally: AWS Marketplace purchases, upfront fees for Reserved
 Instances and Savings Plans, Enterprise Support plans, Mechanical Turk, and
 cryptocurrency mining.
 
-### Never commit AWS keys
+**The credits expire on 28 February 2027.**
 
-Your repository is **public**. Automated scanners find leaked AWS access keys
-within minutes of a push and use them to mine cryptocurrency at your expense —
-this is one of the most common ways student projects run up four-figure bills.
-
-Keep credentials out of the repository entirely. Use environment variables or a
-local `~/.aws/credentials` file, add anything credential-shaped to
-`.gitignore`, and prefer IAM roles over long-lived keys. If you do leak a key,
-deactivate it in the IAM console immediately and tell the course staff — do not
-just delete the commit, because the key is already in the history and already
-scraped.
-
-### If you run short
-
-A few codes are held back. If your team runs out and has a real reason for it,
-ask before Demo 2 rather than after you have already overrun.
+**If your team runs short**, say so before Demo 2 rather than after you have
+already overrun. We are asking Amazon for more, and priority goes to teams that
+can show what they spent the first allocation on.
 
 ## Submission
 
