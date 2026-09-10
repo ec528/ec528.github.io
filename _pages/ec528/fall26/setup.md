@@ -31,6 +31,66 @@ src/               # source code
 experiments/       # scripts that reproduce your results
 ```
 
+## AWS credits
+
+Amazon has given the course **AWS promotional credits**, and each team gets a
+share. The amount differs by team, because the projects need very different
+amounts of compute — a team running on the Mass Open Cloud does not need the
+same budget as one simulating a fleet on EC2. Your codes are emailed to your
+team directly. **They are never posted here or on Piazza**: anyone who has the
+string can redeem it, so treat them like cash.
+
+### Use one AWS account for the whole team
+
+Create **one** AWS account and redeem all of your team's codes into it. Split
+across four or five personal accounts the money is too thin to be useful, and
+you cannot share resources. Decide together who owns the account, and give
+everyone else an IAM user — do not share the root login.
+
+Redeeming requires **a valid credit card on the account**. AWS will not accept a
+promotional code on an account with no payment method, so this is the step that
+usually blocks people. Redeem at the
+[AWS promotional credit page](https://aws.amazon.com/awscredits/), or in the
+Billing and Cost Management console under *Credits*.
+
+**Redeem early.** Credit only applies to usage from the point it lands on the
+account, and AWS will not retroactively cover charges from before you redeemed.
+The credits themselves expire on **28 February 2027**.
+
+### Set a billing alarm on day one
+
+This is the part that costs students real money every year. When the credit runs
+out, **AWS charges the card on file and does not refund overruns** — and neither
+the course nor Amazon will cover them. An instance someone forgets to stop over a
+weekend is enough to do it.
+
+Set up a [billing alarm](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html)
+the same day you redeem, with thresholds well below your total, and stop
+instances you are not using.
+
+Some services **cannot** be paid for with promotional credit, and you will be
+billed for them normally: AWS Marketplace purchases, upfront fees for Reserved
+Instances and Savings Plans, Enterprise Support plans, Mechanical Turk, and
+cryptocurrency mining.
+
+### Never commit AWS keys
+
+Your repository is **public**. Automated scanners find leaked AWS access keys
+within minutes of a push and use them to mine cryptocurrency at your expense —
+this is one of the most common ways student projects run up four-figure bills.
+
+Keep credentials out of the repository entirely. Use environment variables or a
+local `~/.aws/credentials` file, add anything credential-shaped to
+`.gitignore`, and prefer IAM roles over long-lived keys. If you do leak a key,
+deactivate it in the IAM console immediately and tell the course staff — do not
+just delete the commit, because the key is already in the history and already
+scraped.
+
+### If you run short
+
+A few codes are held back. If your team runs out and has a real reason for it,
+ask before Demo 2 rather than after you have already overrun.
+
 ## Submission
 
 You do not have to do anything special to submit your project. There is no upload form and nothing to email. We use a snapshot of your GitHub repository as it exists at the deadline, and grade that version. You can still make changes to your repository after the deadline, but we will only use the snapshot of your code as of the deadline.
