@@ -30,7 +30,7 @@
       link: "/papers/EECS-2009-28.pdf"
 
 - title: "Data-parallel Computation"              # 09/14 Mon
-  slides: "/slides/spring26/5-mapreduce.pdf"
+  slides: "/slides/fall26/3-mapreduce.pdf"
   quiz: true
   readings:
     - name: "MapReduce"
