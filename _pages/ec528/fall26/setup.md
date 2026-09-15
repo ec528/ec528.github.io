@@ -41,23 +41,40 @@ treat them like cash.
 
 ### Setup instructions
 
-1. **Create an AWS account** for the team, and **add a valid credit card** to
-   it. AWS will not accept a promotional code on an account with no payment
-   method, so this is the step that usually blocks people.
-2. **Redeem every code** your team was sent into that one account, at the
+1. **Split your team's codes among teammates.** AWS accepts **only one code from
+   this batch per account**: the first code redeems and the rest are rejected. So
+   every code goes into a different account. A code that was rejected is still
+   valid, as long as nobody has redeemed it elsewhere.
+2. **Each teammate who takes a code creates their own AWS account** and **adds a
+   valid credit card** to it. AWS will not accept a promotional code on an account
+   with no payment method, so this is the step that usually blocks people.
+3. **Redeem that one code** at the
    [AWS promotional credit page](https://aws.amazon.com/awscredits/) or in the
-   Billing and Cost Management console under *Credits*.
-3. **Do it early.** Credit only applies to usage from the point it lands on the
-   account; AWS will not retroactively cover charges from before you redeemed.
+   Billing and Cost Management console under *Credits*, before you run anything
+   in the account: AWS will not retroactively cover charges from before you
+   redeemed. If your team has more codes than people, keep the extra codes and
+   redeem each one later in a new account (it needs its own email address; the
+   same card can be reused).
 4. **Set a [billing alarm](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html)
-   the same day**, with thresholds well below your total.
+   the same day** on every account, with thresholds well below that account's
+   $100.
 
 ### Recommendations
 
-* **Use one AWS account for the whole team.** Split across four or five personal
-  accounts the money is too thin to be useful, and you cannot share resources.
-* **Decide together who owns the account**, and give everyone else an IAM user.
-  Do not share the root login, and enable MFA on the root account.
+* **Run the project in one account at a time, and move when its credit runs
+  low.** Credit cannot be moved between accounts, so the workload moves instead.
+  Start in one teammate's account; when its balance is nearly used up (see
+  *Credits* in the Billing console), move to the next teammate's account.
+* **Make moving cheap from day one.** Create your AWS resources with scripts kept
+  in your repository (for example Terraform, CloudFormation, or AWS CLI scripts)
+  rather than by clicking in the console, so that moving means re-running a
+  script. Data you need to keep can come with you: copy S3 objects to the new
+  account, or share AMIs and EBS snapshots with it.
+* **Clean up the old account completely after moving.** Terminate instances and
+  delete EBS volumes, snapshots, S3 buckets, and Elastic IP addresses. Anything
+  left behind is billed to that teammate's card once the credit is gone.
+* **Whoever owns the active account gives everyone else an IAM user.** Do not
+  share the root login, and enable MFA on the root account.
 * **Stop instances you are not using.** Note that EBS volumes keep billing even
   while the instance attached to them is stopped.
 * **Keep credentials out of the repository**, in environment variables or a
@@ -73,8 +90,9 @@ four-figure bills. If you do leak a key, deactivate it in the IAM console
 immediately and tell the course staff. Deleting the commit does not help: the
 key is already in your history and already scraped.
 
-**Overruns are yours.** When the credit runs out, AWS charges the card on file
-and does not refund overruns, and neither the course nor Amazon will cover them.
+**Overruns are yours.** When an account's credit runs out, AWS charges the card
+on that account and does not refund overruns, and neither the course nor Amazon
+will cover them.
 An instance someone forgets to stop over a weekend is enough to do it.
 
 **Some services cannot be paid for with promotional credit**, and you will be
