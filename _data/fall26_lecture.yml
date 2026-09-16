@@ -39,7 +39,7 @@
       link: "/papers/vldb09-938.pdf"
 
 - title: "Case Study: Google File System"         # 09/16 Wed
-  slides: "/slides/spring26/4-gfs.pdf"
+  slides: "/slides/fall26/4-gfs.pdf"
   quiz: true
   readings:
     - name: "GFS"
