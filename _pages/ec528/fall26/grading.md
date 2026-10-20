@@ -79,7 +79,7 @@ Demo 2 requires a **working prototype**. It has to run end to end and do the thi
 | Criterion | Weight | What we look for |
 | --- | --- | --- |
 | Progress | 50% | A prototype that runs end to end, meeting the milestones you committed to for this demo. See the [progress rubric](#progress). |
-| Design document | 20% | How to reproduce the results you claim: setup, the command to run each experiment, and what output to expect. **The TA will run it.** |
+| Design document | 20% | How to reproduce the results you claim: setup, the command to run each experiment, and what output to expect. **The TA will run it.** Commands or scripts are both fine, as long as they run; see [what the instructions must include]({{ '/ec528/fall26/setup/#instructions-the-ta-can-run' | relative_url }}). |
 | Code quality | 10% | Code someone else on the team can read, build, and extend. Structured, not a pile of one-off scripts. |
 | Slides | 10% | See the [slides rubric](#slides). |
 | Technical depth | 10% | Real systems work rather than plumbing. Wiring together existing services scores lower than solving a hard problem inside one. |
@@ -91,7 +91,7 @@ Demo 3 is about **making the prototype good**. By this point the system works, s
 | Criterion | Weight | What we look for |
 | --- | --- | --- |
 | Progress | 50% | Measured improvement over your Demo 2 baseline, meeting the milestones you committed to for this demo. See the [progress rubric](#progress). |
-| Design document | 20% | Updated to cover your optimization experiments: how to run each one and what output to expect. **The TA will run it.** |
+| Design document | 20% | Updated to cover your optimization experiments: how to run each one and what output to expect. **The TA will run it.** Same [requirements for the instructions]({{ '/ec528/fall26/setup/#instructions-the-ta-can-run' | relative_url }}) as Demo 2. |
 | Code quality | 10% | Code someone else on the team can read, build, and extend. Structured, not a pile of one-off scripts. |
 | Slides | 10% | See the [slides rubric](#slides). |
 | Technical depth | 10% | Real systems work rather than plumbing. Wiring together existing services scores lower than solving a hard problem inside one. |

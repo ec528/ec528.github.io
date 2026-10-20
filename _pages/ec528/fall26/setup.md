@@ -28,7 +28,7 @@ README.md          # what the project is, and how to run it
 docs/              # design proposal, design document
 slides/            # demo slides
 src/               # source code
-experiments/       # scripts that reproduce your results
+experiments/       # scripts or step-by-step commands that reproduce your results
 ```
 
 ## Set up AWS credits
@@ -151,6 +151,19 @@ By the deadline, the submission branch must contain your **slides** and **all of
 | Final presentation | Artifact documentation, recorded video presentation |
 
 Every team member is responsible for making sure their own work is pushed and merged into the submission branch. Your commit history is also one of the inputs to the *Individual contribution* score, so commit as you work rather than having one person push everything at the end.
+
+### Instructions the TA can run
+
+The design document for Demo 2 and Demo 3, and the artifact documentation for the final, must tell the TA how to run each of your experiments. **A shell script is not required.** Step-by-step commands written in the document are fine. What matters is that **the TA can follow them on a clean machine and get them to run**. If the TA cannot, that counts against the design document score, however good the system is.
+
+Whether you write a script or a list of commands, the instructions must:
+
+- **Start from a fresh machine.** State the operating system and the versions of the languages and tools you depend on, and give every step: cloning, installing dependencies, building, configuring. Do not rely on anything that only exists on your own laptop.
+- **Pin what you pull from outside your repository.** If you build on an upstream project (OpenStack, Kubernetes, a benchmark suite), give the exact commit or tag to clone and say how your changes are applied to it.
+- **Give the exact command for each experiment**, with roughly how long it takes and what machines or cloud resources it needs.
+- **Show the expected output** — the numbers, the number of tests that should pass, or the plot it produces — so the TA can tell whether the run succeeded.
+
+**Test them before the deadline.** Have someone on your team follow the instructions word for word in a fresh environment, such as a new VM or container.
 
 ### Presentation quiz questions
 
