@@ -137,21 +137,7 @@
     - name: "DynamoDB"
       link: "/papers/atc22-dynamodb.pdf"
 
-- title: "Log Processing"                         # 11/02 Mon
-  slides: "/slides/spring26/12-kafka.pdf"
-  quiz: true
-  readings:
-    - name: "Kafka"
-      link: "/papers/NetDB11_Kafka.pdf"
-
-- title: "Serverless Computing"                   # 11/04 Wed
-  slides: "/slides/spring26/14-severless.pdf"
-  quiz: true
-  readings:
-    - name: "Serverless Computing"
-      link: "/papers/Berkeley_Serverless.pdf"
-
-- title: "Performance Issue"                      # 11/09 Mon
+- title: "Performance Issue"                      # 11/02 Mon
   slides: "/slides/spring26/15-performance.pdf"
   quiz: true
   readings:
@@ -160,7 +146,14 @@
     - name: "Making Sense of Performance"
       link: "/papers/nsdi15-paper-ousterhout.pdf"
 
-- title: "Performance Tracing"                    # 11/11 Wed
+- title: "Log Processing"                         # 11/04 Wed
+  slides: "/slides/spring26/12-kafka.pdf"
+  quiz: true
+  readings:
+    - name: "Kafka"
+      link: "/papers/NetDB11_Kafka.pdf"
+
+- title: "Performance Tracing"                    # 11/09 Mon
   slides: "/slides/spring26/16-profiling.pdf"
   quiz: true
   readings:
@@ -169,13 +162,7 @@
     - name: "Pivot Tracing"
       link: "/papers/pivot-tracing.pdf"
 
-- title: "Milestone Demos III"                    # 11/16 Mon
-  slides:
-  readings:
-  note: "Demo 3 -- optimized system. Due 12:00 noon, branch demo-3."
-  note_alert: true
-
-- title: "Cloud Failures"                         # 11/18 Wed
+- title: "Cloud Failures"                         # 11/11 Wed
   slides: "/slides/spring26/17-failure.pdf"
   quiz: true
   readings:
@@ -183,6 +170,19 @@
       link: "/papers/socc16-cos.pdf"
     - name: "Large-scale Failure Study"
       link: "/papers/socc22-study.pdf"
+
+- title: "Milestone Demos III"                    # 11/16 Mon
+  slides:
+  readings:
+  note: "Demo 3 -- optimized system. Due 12:00 noon, branch demo-3."
+  note_alert: true
+
+- title: "Serverless Computing"                   # 11/18 Wed
+  slides: "/slides/spring26/14-severless.pdf"
+  quiz: true
+  readings:
+    - name: "Serverless Computing"
+      link: "/papers/Berkeley_Serverless.pdf"
 
 - title: "LLM Infrastructure"                     # 11/23 Mon
   slides: ""
