@@ -90,11 +90,25 @@ Demo 3 is about **making the prototype good**. By this point the system works, s
 
 | Criterion | Weight | What we look for |
 | --- | --- | --- |
-| Progress | 50% | Measured improvement over your Demo 2 baseline, meeting the milestones you committed to for this demo. See the [progress rubric](#progress). |
+| Progress | 50% | Measured improvement over your Demo 2 baseline, meeting the milestones you committed to for this demo, which must also clear the [milestone bar](#the-milestone-bar). See the [progress rubric](#progress). |
 | Design document | 20% | Updated to cover your optimization experiments: how to run each one and what output to expect. **The TA will run it.** Same [requirements for the instructions]({{ '/ec528/fall26/setup/#instructions-the-ta-can-run' | relative_url }}) as Demo 2. |
 | Code quality | 10% | Code someone else on the team can read, build, and extend. Structured, not a pile of one-off scripts. |
 | Slides | 10% | See the [slides rubric](#slides). |
 | Technical depth | 10% | Real systems work rather than plumbing. Wiring together existing services scores lower than solving a hard problem inside one. |
+
+#### The milestone bar
+
+At Demo 2, finishing your plan earns full Progress, however modest the plan was. From Demo 3 on, the plan itself has to be good enough: **your milestones must be what a strong course project would aim for**, given a team of 4-5 and the time since Demo 2.
+
+| Test | What we look for |
+| --- | --- |
+| A real target | The milestones improve something central to your project's goal, with a stated number measured against your Demo 2 baseline. |
+| A real workload | The measurements use a realistic workload and scale, not a toy input. |
+| Real work | The work behind them is substantial for your team's size and the time available. A milestone you had already met at Demo 2 does not count. |
+
+The instructor decides with your mentor. This is a judgment about your project's scope, not a comparison with other teams.
+
+**If your plan falls short of the bar, Progress is capped at 7, even if you complete every milestone.** Revising your milestones does not get around this, because the revised plan has to clear the bar too. Raising them is always allowed, so if you are unsure, talk to your mentor before the demo.
 
 ### Final project result and report — 20%
 
@@ -129,7 +143,7 @@ Graded the way a top-tier systems conference evaluates artifacts: **we will run 
 | 4–5 | The code builds and runs only on a toy input. The claimed experiments cannot be rerun. |
 | 1–3 | We cannot build or run the code from your repository. |
 
-A claim you do not make cannot cost you points here. Stating an honest, narrower result that reproduces scores better than an impressive result we cannot reproduce.
+Stating an honest, narrower result that reproduces scores better than an impressive result we cannot reproduce. But the [milestone bar](#the-milestone-bar) applies here too: your claims have to cover the main goal of your project. An artifact that reproduces perfectly but claims only a result below the bar scores at most 7.
 
 #### Artifact: documentation — 20%
 
@@ -161,11 +175,11 @@ Note that a demo day has two different deadlines: your demo materials are due at
 
 ### Progress
 
-**Progress** is evaluated against the milestones your own team committed to in its design proposal, not against other teams. Projects come from different mentors and differ in scope, so teams are not compared to one another on progress.
+**Progress** is evaluated against the milestones your own team committed to in its design proposal, not against other teams. Projects come from different mentors and differ in scope, so teams are not compared to one another on progress. From Demo 3 on, those milestones must also clear the [milestone bar](#the-milestone-bar).
 
 Progress must be **demonstrable**. We grade what runs and what is committed to your repository — not what a slide claims.
 
-Progress is scored out of **10**, where 10 means you completed everything you committed to:
+Progress is scored out of **10**, where 10 means you completed everything you committed to. At Demo 3, a plan below the [milestone bar](#the-milestone-bar) is capped at 7.
 
 | Score | Level | What it looks like |
 | --- | --- | --- |
@@ -175,9 +189,9 @@ Progress is scored out of **10**, where 10 means you completed everything you co
 | 4–5 | Behind | Significant milestones missed, with no convincing plan to recover. |
 | 1–3 | Little progress | Little or no demonstrable work since the previous demo. |
 
-There is no score above 10, so finishing your plan early is already full marks for progress. Work that goes beyond the plan is rewarded through **challenge** (Demo 1) and **technical depth** (Demos 2 and 3) instead.
+There is no score above 10, so finishing a plan that clears the bar early is already full marks for progress. Work that goes beyond the plan is rewarded through **challenge** (Demo 1) and **technical depth** (Demos 2 and 3) instead.
 
-Revising your milestones is allowed and expected — real projects change direction. Announce the change and its justification at the demo, and you will be graded against the revised plan. Silently dropping a milestone and not mentioning it is treated as a miss.
+Revising your milestones is allowed and expected — real projects change direction. Announce the change and its justification at the demo, and you will be graded against the revised plan, which from Demo 3 on must also clear the [milestone bar](#the-milestone-bar). Silently dropping a milestone and not mentioning it is treated as a miss.
 
 ### Slides
 
