@@ -209,10 +209,10 @@
   slides: ""
   quiz: true
   readings:
-    - name: "How to Fight Production Incidents"
-      link: "/papers/socc22-incidents.pdf"
-    - name: "LLM for Root-Cause and Mitigation"
-      link: "/papers/icse23-rootcause-llm.pdf"
+    - name: "Triangle"
+      link: "/papers/ase25-triangle.pdf"
+    - name: "MoCE"
+      link: "/papers/nsdi26-moce.pdf"
 
 - title: "Lab Day"                                # 12/07 Mon
   slides:
